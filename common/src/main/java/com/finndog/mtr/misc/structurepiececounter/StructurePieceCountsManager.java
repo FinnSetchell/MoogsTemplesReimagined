@@ -35,7 +35,7 @@ public class StructurePieceCountsManager extends SimpleJsonResourceReloadListene
         for(int i = piecesSpawnCounts.size() - 1; i >= 0; i--) {
             StructurePieceCountsObj entry = piecesSpawnCounts.get(i);
             if(entry.alwaysSpawnThisMany != null && entry.neverSpawnMoreThanThisMany != null && entry.alwaysSpawnThisMany > entry.neverSpawnMoreThanThisMany) {
-                throw new Exception("Moog's ReplaceMe Structures Error: Found " + entry.nbtPieceName + " entry has alwaysSpawnThisMany greater than neverSpawnMoreThanThisMany which is invalid.");
+                throw new Exception("Moog's Temples Reimagined Error: Found " + entry.nbtPieceName + " entry has alwaysSpawnThisMany greater than neverSpawnMoreThanThisMany which is invalid.");
             }
         }
         return piecesSpawnCounts;
@@ -49,7 +49,7 @@ public class StructurePieceCountsManager extends SimpleJsonResourceReloadListene
                 mapBuilder.put(fileIdentifier, getStructurePieceCountsObjs(fileIdentifier, jsonElement));
             }
             catch (Exception e) {
-                MSCommon.LOGGER.error("Moog's ReplaceMe Structures Error: Couldn't parse rs_pieces_spawn_counts file {} - JSON looks like: {}", fileIdentifier, jsonElement, e);
+                MSCommon.LOGGER.error("Moog's Temples Reimagined Error: Couldn't parse rs_pieces_spawn_counts file {} - JSON looks like: {}", fileIdentifier, jsonElement, e);
             }
         });
         this.StructureToPieceCountsObjs = mapBuilder;
@@ -63,7 +63,7 @@ public class StructurePieceCountsManager extends SimpleJsonResourceReloadListene
                 this.StructureToPieceCountsObjs.computeIfAbsent(structureRL, rl -> new ArrayList<>()).addAll(getStructurePieceCountsObjs(structureRL, jsonElement));
             }
             catch (Exception e) {
-                MSCommon.LOGGER.error("Moog's ReplaceMe Structures Error: Couldn't parse rs_pieces_spawn_counts file {} - JSON looks like: {}", structureRL, jsonElement, e);
+                MSCommon.LOGGER.error("Moog's Temples Reimagined Error: Couldn't parse rs_pieces_spawn_counts file {} - JSON looks like: {}", structureRL, jsonElement, e);
             }
         });
     }

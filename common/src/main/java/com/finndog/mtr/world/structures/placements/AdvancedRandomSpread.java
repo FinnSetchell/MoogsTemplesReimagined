@@ -61,7 +61,7 @@ public class AdvancedRandomSpread extends RandomSpreadStructurePlacement {
 
         if (spacing <= separation) {
             throw new RuntimeException("""
-                Moog's ReplaceMe Structures: Spacing cannot be less or equal to separation.
+                Moog's Temples Reimagined: Spacing cannot be less or equal to separation.
                 Please correct this error as there's no way to spawn this structure properly
                     Spacing: %s
                     Separation: %s.

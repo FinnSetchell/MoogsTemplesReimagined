@@ -1,19 +1,19 @@
 modLoader="javafml"
 loaderVersion="[2,)"
-issueTrackerURL="https://github.com/FinnSetchell/MoogsReplaceMeStructures/issues" #optional
-license="https://github.com/FinnSetchell/MoogsReplaceMeStructures/blob/1.20-MultiLoader/LICENSE"
+issueTrackerURL="https://github.com/FinnSetchell/MoogsTemplesReimagined/issues" #optional
+license="https://github.com/FinnSetchell/MoogsTemplesReimagined/blob/1.20-MultiLoader/LICENSE"
 
 [[mods]]
     modId="mtr"
     logoFile= "assets/mtr/icon.png"
     logoBlur=false
     version="${version}"
-    displayName="Moog's ReplaceMe Structures"
-    displayURL="https://www.curseforge.com/minecraft/mc-mods/moogs-replaceMe-structures"
+    displayName="Moog's Temples Reimagined"
+    displayURL="https://www.curseforge.com/minecraft/mc-mods/moogs-temples-reimagined"
     authors="FinnDog"
     credits="Thanks to phantax, the main builder as well as TelepathicGrunt for their structure mod template and rs"
     description='''
-    Moogs ReplaceMe Structures brings life, fun and variety to your Minecraft world!
+    Moogs Temples Reimagined brings life, fun and variety to your Minecraft world!
     Explore awesome new structures made with vanilla blocks and entities, and discover loot,
     enemies, and villagers along the way. This mod is compatible with any modpack and keeps
     the vanilla feel of the game!
@@ -25,7 +25,7 @@ license="https://github.com/FinnSetchell/MoogsReplaceMeStructures/blob/1.20-Mult
 [[mixins]]
     config = "mtr-common.mixins.json"
 
-[[dependencies.mvs]]
+[[dependencies.mtr]]
     modId="minecraft"
     type="required"
     versionRange="[1.20.5,)"

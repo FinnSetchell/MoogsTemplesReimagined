@@ -229,7 +229,7 @@ public final class GeneralUtils {
                         }
                         else {
                             MSCommon.LOGGER.error(
-                                    "(Moog's ReplaceMe Structures {} MERGER) Couldn't load data file {} from {} as it's null or empty",
+                                    "(Moog's Temples Reimagined {} MERGER) Couldn't load data file {} from {} as it's null or empty",
                                     dataType,
                                     fileID,
                                     resourceStackEntry);
@@ -239,7 +239,7 @@ public final class GeneralUtils {
             }
             catch (IllegalArgumentException | IOException | JsonParseException exception) {
                 MSCommon.LOGGER.error(
-                        "(ReplaceMe's ReplaceMe Structures {} MERGER) Couldn't parse data file {} from {}",
+                        "(ReplaceMe's Temples Reimagined {} MERGER) Couldn't parse data file {} from {}",
                         dataType,
                         fileID,
                         resourceStackEntry,

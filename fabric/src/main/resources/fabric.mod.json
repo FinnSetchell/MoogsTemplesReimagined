@@ -2,14 +2,14 @@
     "schemaVersion": 1,
     "id": "mtr",
     "version": "${version}-fabric",
-    "name": "Moog's ReplaceMe Structures",
+    "name": "Moog's Temples Reimagined",
     "description": "lots of structures made with vanilla blocks and entities bringing life to your world! Discover loot, enemies, & villagers along the way!",
     "authors": [
         "FinnDog"
     ],
     "contact": {
-        "homepage": "https://www.curseforge.com/minecraft/mc-mods/moogs-voyager-structures",
-        "sources": "https://github.com/FinnSetchell/MoogsReplaceMeStructures"
+        "homepage": "https://www.curseforge.com/minecraft/mc-mods/moogs-temples-reimagined",
+        "sources": "https://github.com/FinnSetchell/MoogsTemplesReimagined"
     },
     "license": "GNU Lesser General Public License v3.0",
     "icon": "icon.png",

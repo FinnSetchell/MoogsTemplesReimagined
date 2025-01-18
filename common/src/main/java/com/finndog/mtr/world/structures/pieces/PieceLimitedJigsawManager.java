@@ -85,8 +85,8 @@ public class PieceLimitedJigsawManager {
         // Get starting pool
         StructureTemplatePool startPool = startPoolHolder.value();
         if(startPool.size() == 0) {
-            MSCommon.LOGGER.warn("Moog's ReplaceMe Structures: Empty or nonexistent start pool in structure: {}  Crash is imminent", structureID);
-            throw new RuntimeException("Moog's ReplaceMe Structures: Empty or nonexistent start pool in structure: " + structureID + " Crash is imminent");
+            MSCommon.LOGGER.warn("Moog's Temples Reimagined: Empty or nonexistent start pool in structure: {}  Crash is imminent", structureID);
+            throw new RuntimeException("Moog's Temples Reimagined: Empty or nonexistent start pool in structure: " + structureID + " Crash is imminent");
         }
 
         // Grab a random starting piece from the start pool. This is just the piece design itself, without rotation or position information.
@@ -136,11 +136,11 @@ public class PieceLimitedJigsawManager {
                             """
                                             
                                     -------------------------------------------------------------------
-                                    Moog's ReplaceMe Structures: Failed to create valid structure with all required pieces starting from this pool file: {}. Required pieces failed to generate the required amount are: {}
+                                    Moog's Temples Reimagined: Failed to create valid structure with all required pieces starting from this pool file: {}. Required pieces failed to generate the required amount are: {}
                                       This can happen if a structure has a required piece but the structure size is set too low.
-                                      However, this is most likely caused by a structure unable to spawn properly due to hitting the world's min y or max y build thresholds or a broken MVS datapack.
+                                      However, this is most likely caused by a structure unable to spawn properly due to hitting the world's min y or max y build thresholds or a broken MTR datapack.
                                       Try teleporting to: {} and see if the structure generated fine with the required structure piece or if it is indeed missing it.
-                                      Please report the issue to Moog's ReplaceMe Structures's dev with latest.log file if the structure is not cut off by world min/max y build thresholds.
+                                      Please report the issue to Moog's Temples Reimagined's dev with latest.log file if the structure is not cut off by world min/max y build thresholds.
                                             
                                     """,
                             jigsawPoolRegistry.getKey(startPool), Arrays.toString(currentPieceCounter.entrySet().stream().filter(entry -> entry.getValue() > 0).toArray()), new BlockPos(pieceCenterX, pieceCenterY, pieceCenterZ));
@@ -285,7 +285,7 @@ public class PieceLimitedJigsawManager {
 
                 // Only continue if we are using the jigsaw pattern registry and if it is not empty
                 if (!(poolOptional.isPresent() && (poolOptional.get().size() != 0 || Objects.equals(jigsawBlockPool, Pools.EMPTY.location())))) {
-                    MSCommon.LOGGER.warn("Moog's ReplaceMe Structures: Empty or nonexistent pool: {} which is being called from {}", jigsawBlockPool, pieceBlueprint instanceof SinglePoolElement ? ((SinglePoolElementAccessor) pieceBlueprint).ms_getTemplate().left().get() : "not a SinglePoolElement class");
+                    MSCommon.LOGGER.warn("Moog's Temples Reimagined: Empty or nonexistent pool: {} which is being called from {}", jigsawBlockPool, pieceBlueprint instanceof SinglePoolElement ? ((SinglePoolElementAccessor) pieceBlueprint).ms_getTemplate().left().get() : "not a SinglePoolElement class");
                     continue;
                 }
 
@@ -435,7 +435,7 @@ public class PieceLimitedJigsawManager {
                                 ResourceLocation candidateTargetPool = new ResourceLocation(pieceCandidateJigsawBlock.nbt().getString("pool"));
                                 Optional<StructureTemplatePool> candidateTargetPoolOptional = this.poolRegistry.getOptional(candidateTargetPool);
                                 if (candidateTargetPoolOptional.isEmpty()) {
-                                    MSCommon.LOGGER.warn("Moog's ReplaceMe Structures: Non-existent child pool attempted to be spawned: {} which is being called from {}. Let Moog's ReplaceMe Structures dev (FinnDog) know about this log entry.", candidateTargetPool, candidatePiece instanceof SinglePoolElement ? ((SinglePoolElementAccessor) candidatePiece).ms_getTemplate().left().get() : "not a SinglePoolElement class");
+                                    MSCommon.LOGGER.warn("Moog's Temples Reimagined: Non-existent child pool attempted to be spawned: {} which is being called from {}. Let Moog's Temples Reimagined dev (FinnDog) know about this log entry.", candidateTargetPool, candidatePiece instanceof SinglePoolElement ? ((SinglePoolElementAccessor) candidatePiece).ms_getTemplate().left().get() : "not a SinglePoolElement class");
                                 }
                                 int tallestCandidateTargetFallbackPieceHeight = candidateTargetPoolOptional.map((c) -> c.getFallback().value().getMaxSize(context.structureTemplateManager())).orElse(0);
                                 int tallestCandidateTargetPoolPieceHeight = candidateTargetPoolOptional.map((c) -> c.getMaxSize(context.structureTemplateManager())).orElse(0);
