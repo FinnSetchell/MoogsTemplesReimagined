@@ -1,0 +1,19 @@
+{
+    "type": "mtr:ms_generic_jigsaw_structure",
+    "start_pool": "mtr:stronghold_start_pool",
+    "size": 1,
+    "project_start_to_heightmap": "WORLD_SURFACE_WG",
+    "biomes": "#mtr:has_structure/overworld_biomes",
+    "step": "surface_structures",
+    "terrain_adaptation": "bury",
+    "start_height": {
+        "type": "minecraft:uniform",
+        "max_inclusive": {
+            "absolute": -45
+        },
+        "min_inclusive": {
+            "absolute": -100
+        }
+    },
+    "spawn_overrides": {}
+}

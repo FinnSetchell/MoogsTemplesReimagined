@@ -1,0 +1,14 @@
+{
+    "structures": [
+        {
+            "structure": "mtr:stronghold",
+            "weight": 1
+        }
+    ],
+    "placement": {
+        "type": "mtr:advanced_random_spread",
+        "salt": 170159968,
+        "spacing": 118,
+        "separation": 23
+    }
+}

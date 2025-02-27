@@ -1,11 +1,11 @@
 {
-    "name": "mtr:jungle_temple_start_pool",
+    "name": "mtr:stronghold_start_pool",
     "fallback": "minecraft:empty",
     "elements": [
         {
             "weight": 1,
             "element": {
-                "location": "mtr:jungle_temple/jungle_temple",
+                "location": "mtr:stronghold/stronghold",
                 "processors": "minecraft:empty",
                 "projection": "rigid",
                 "element_type": "minecraft:single_pool_element"

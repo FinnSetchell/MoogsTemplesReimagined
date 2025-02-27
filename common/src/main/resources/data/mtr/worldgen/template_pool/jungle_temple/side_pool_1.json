@@ -7,7 +7,7 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
-        "location": "mtr:jungle_temple_1",
+        "location": "mtr:jungle_temple/jungle_temple_1",
         "processors": "minecraft:empty"
       }
     }
