@@ -1,13 +1,13 @@
 {
     "structures": [
         {
-            "structure": "mtr:jungle_temple",
+            "structure": "mtr:desert_temple",
             "weight": 1
         }
     ],
     "placement": {
         "type": "mtr:advanced_random_spread",
-        "salt": 154471789,
+        "salt": 225874987,
         "spacing": 70,
         "separation": 10
     }

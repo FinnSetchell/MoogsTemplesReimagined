@@ -1,13 +1,13 @@
 {
     "type": "mtr:ms_generic_jigsaw_structure",
-    "start_pool": "mtr:jungle_temple/start_pool",
+    "start_pool": "mtr:desert-mega-temple/start_pool",
     "size": 10,
     "project_start_to_heightmap": "WORLD_SURFACE_WG",
     "terrain_height_radius_check": 2,
     "allowed_terrain_height_range": 5,
     "valid_biome_radius_check": 3,
     "liquid_settings": "ignore_waterlogging",
-    "biomes": "#mtr:has_structure/jungle_biomes",
+    "biomes": "#mtr:has_structure/desert_biomes",
     "step": "surface_structures",
     "terrain_adaptation": "beard_thin",
     "cannot_spawn_in_liquid": true,
@@ -25,7 +25,7 @@
                     "maxCount": 6
                 },
                 {
-                    "type": "minecraft:spider",
+                    "type": "minecraft:husk",
                     "weight": 10,
                     "minCount": 1,
                     "maxCount": 3
