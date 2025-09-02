@@ -2,19 +2,8 @@
     "required": true,
     "minVersion": "0.8",
     "package": "com.finndog.mtr.mixins",
-    "compatibilityLevel": "JAVA_21",
+    "compatibilityLevel": "JAVA_17",
     "mixins": [
-        "resources.NamespaceResourceManagerAccessor",
-        "structures.ListPoolElementAccessor",
-        "structures.LocateCommandMixin",
-        "structures.PoolElementStructurePieceAccessor",
-        "structures.SinglePoolElementAccessor",
-        "structures.StructurePieceAccessor",
-        "structures.StructurePoolAccessor",
-        "structures.StructureProcessorAccessor",
-        "structures.StructureTemplateManagerAccessor",
-        "structures.StructureTemplateMixin",
-        "structures.TemplateAccessor"
     ],
     "client": [
     ],

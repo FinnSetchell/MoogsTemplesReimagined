@@ -1,11 +1,11 @@
 {
-    "type": "mtr:ms_generic_jigsaw_structure",
+    "type": "moogs_structures:moogs_structures_generic_jigsaw_structure",
     "start_pool": "mtr:jungle_temple/start_pool",
     "size": 10,
     "project_start_to_heightmap": "WORLD_SURFACE_WG",
     "terrain_height_radius_check": 2,
     "allowed_terrain_height_range": 5,
-    "valid_biome_radius_check": 3,
+    "valid_biome_radius_check": 1,
     "liquid_settings": "ignore_waterlogging",
     "biomes": "#mtr:has_structure/jungle_biomes",
     "step": "surface_structures",

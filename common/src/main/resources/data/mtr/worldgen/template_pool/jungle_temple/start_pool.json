@@ -1,5 +1,5 @@
 {
-    "name": "mtr:jungle_temple_start_pool",
+    "name": "mtr:jungle_temple/start_pool",
     "fallback": "minecraft:empty",
     "elements": [
         {

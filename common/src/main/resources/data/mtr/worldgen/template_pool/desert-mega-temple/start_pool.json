@@ -1,5 +1,5 @@
 {
-    "name": "mtr:desert_temple_start_pool",
+    "name": "mtr:desert-mega-temple/start_pool",
     "fallback": "minecraft:empty",
     "elements": [
         {

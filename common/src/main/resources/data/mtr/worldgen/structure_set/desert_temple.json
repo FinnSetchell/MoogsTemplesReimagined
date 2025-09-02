@@ -6,9 +6,9 @@
         }
     ],
     "placement": {
-        "type": "mtr:advanced_random_spread",
+        "type": "moogs_structures:advanced_random_spread",
         "salt": 225874987,
-        "spacing": 70,
-        "separation": 10
+        "spacing": 50,
+        "separation": 8
     }
 }
