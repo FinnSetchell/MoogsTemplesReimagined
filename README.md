@@ -1,1 +1,0 @@
-# Moog's Temples Reimagined
