@@ -1,0 +1,14 @@
+
+modLoader = 'javafml'
+loaderVersion = '[1,)'
+license = 'GNU Lesser General Public License v3.0'
+showAsResourcePack = false
+mods = [
+	{ modId = 'mtr', version = '1.0.0', displayName = "Moog's Temples Reimagined", description = 'Many structures made with vanilla blocks and entities bringing life to your world! Discover loot, enemies, & villagers along the way!', logoFile = 'icon.png', credits = 'Built by Phantax', authors = 'FinnDog', displayURL = 'https://www.curseforge.com/minecraft/mc-mods/moogs-temples-reimagined' },
+]
+[[dependencies.mtr]]
+modId = "moogs_structures"
+mandatory = true
+versionRange = "[1.0,)"
+ordering = "NONE"
+side = "BOTH"
