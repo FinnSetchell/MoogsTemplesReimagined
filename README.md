@@ -24,9 +24,25 @@ Moog's Temples Reimagined brings new life to Minecraft's classic temple structur
 
 ### STRUCTURES
 
-*   **Desert Temple (Mega)**
-*   **Jungle Temple (Reimagined)**
-*   **More on their way**
+This mod adds 3 unique temple structures to Minecraft! Here's a comprehensive list of all included structures:
+
+| Structure Name | Biome Tag | Generation Type | Rarity | Special Features |
+|---|---|---|---|---|
+| **Temple Structures** |
+| Jungle Temple | Jungle Biomes | Surface | Rare | Large multi-part structure (size 10), spawns skeletons & spiders |
+| Ocean Temple | Ocean Biomes | Ocean Floor | Rare | Underwater structure, max Y: 40, spawns guardians |
+| Stronghold | Overworld Biomes | Underground | Ultra Rare | Underground structure (size 1), buried at Y: -45 to -100 |
+
+**Biome Tags Reference:**
+- **Jungle Biomes**: Jungle + modded jungle biomes (BYG Guiana Shield, Jacaranda Forest)
+- **Ocean Biomes**: Ocean, Deep Ocean + modded water biomes
+- **Overworld Biomes**: Plains, Savanna, Forest, Birch Forest, Flower Forest, Taiga, Jungle + modded biomes (BYG, Biomes O' Plenty)
+
+**Rarity Legend:**
+- **Rare** (spacing 60): Less common structures, require more exploration to find
+- **Ultra Rare** (spacing 118): Extremely rare structures, very difficult to find
+
+*More structures are on their way!*
 
 ![discord](https://www.bisecthosting.com/images/CF/Moogs_Temples_Reimagined/MP_MoogsTemplesReimagined_discord.webp)
 
