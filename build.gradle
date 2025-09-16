@@ -15,9 +15,9 @@ repositories {
 
 tasks.processResources {
     def meta = [
-        'version': version,
-        'mod_name': modName,
-        'mc_version': mcVersion,
+            'version': version,
+            'mod_name': modName,
+            'mc_version': mcVersion,
     ]
     filesMatching('fabric.mod.json') { expand(meta) }
     filesMatching('quilt.mod.json') { expand(meta) }
@@ -36,14 +36,14 @@ def changelogText = changeLogFile.exists() ? changeLogFile.getText('UTF-8') : ''
 publishMods {
     file = tasks.named('jar').flatMap { it.archiveFile }
     changelog = changelogText
-    
+
     // Release metadata
     version = project.version.toString()
     // Release type (defaults to STABLE if not provided)
     type = STABLE
     def displayPrefix = (project.findProperty('publishDisplayPrefix') ?: 'MTR') as String
     def displaySuffix = (project.findProperty('publishDisplaySuffix') ?: '[UNIVERSAL]') as String
-    displayName = "${displayPrefix} ${version}-${mcVersion} ${displaySuffix}"
+    displayName = "${displayPrefix} ${project.version}-${mcVersion} ${displaySuffix}"
 
 
     modLoaders.add("fabric")
@@ -54,7 +54,7 @@ publishMods {
     maxRetries = 3
 
     // When dry run is enabled the release assets will be saved to the build directory for testing.
-    dryRun = true
+    dryRun = false
 
     modrinth {
         accessToken = providers.environmentVariable('MODRINTH_API_KEY')
@@ -62,6 +62,9 @@ publishMods {
         minecraftVersionRange {
             start = (project.findProperty('publishMcStart') ?: mcVersion)
             end = (project.findProperty('publishMcEnd') ?: mcVersion)
+        }
+        requires {
+            slug = "moogs-structure-lib"
         }
     }
 
@@ -73,6 +76,7 @@ publishMods {
             start = (project.findProperty('publishMcStart') ?: mcVersion)
             end = (project.findProperty('publishMcEnd') ?: mcVersion)
         }
+        requires("moogs-structure-lib")
     }
 }
 
@@ -80,4 +84,3 @@ publishMods {
 tasks.named('publishMods').configure {
     dependsOn tasks.named('jar')
 }
-
