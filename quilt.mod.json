@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "quilt_loader": {
+    "group": "com.finndog",
+    "id": "mtr",
+    "version": "1.0.0",
+    "metadata": {
+      "name": "Moog's Temples Reimagined",
+      "description": "Many structures made with vanilla blocks and entities bringing life to your world! Discover loot, enemies, & villagers along the way!",
+      "contributors": {
+        "FinnDog": "Owner"
+      },
+      "contact": {
+        "homepage": "https://www.curseforge.com/minecraft/mc-mods/moogs-temples-reimagined",
+        "sources": "https://github.com/FinnSetchell/MoogsTemplesReimagined",
+        "issues": "https://github.com/FinnSetchell/MoogsTemplesReimagined/issues"
+      },
+      "icon": "icon.png",
+      "license": "GNU Lesser General Public License v3.0"
+    },
+    "intermediate_mappings": "net.fabricmc:intermediary",
+    "depends": [
+      {
+        "id": "quilt_resource_loader",
+        "versions": "*",
+        "unless": "fabric-resource-loader-v0"
+      },
+      {
+        "id": "moogs_structures",
+        "versions": "*"
+      }
+    ]
+  }
+}
