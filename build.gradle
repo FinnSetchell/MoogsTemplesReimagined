@@ -43,7 +43,7 @@ publishMods {
     type = STABLE
     def displayPrefix = (project.findProperty('publishDisplayPrefix') ?: 'MTR') as String
     def displaySuffix = (project.findProperty('publishDisplaySuffix') ?: '[UNIVERSAL]') as String
-    displayName = "${displayPrefix} ${version}-${mcVersion} ${displaySuffix}"
+    displayName = "${displayPrefix} ${project.version}-${mcVersion} ${displaySuffix}"
 
 
     modLoaders.add("fabric")
@@ -54,7 +54,7 @@ publishMods {
     maxRetries = 3
 
     // When dry run is enabled the release assets will be saved to the build directory for testing.
-    dryRun = true
+    dryRun = false
 
     modrinth {
         accessToken = providers.environmentVariable('MODRINTH_API_KEY')
@@ -62,6 +62,10 @@ publishMods {
         minecraftVersionRange {
             start = (project.findProperty('publishMcStart') ?: mcVersion)
             end = (project.findProperty('publishMcEnd') ?: mcVersion)
+        }
+        requires {
+            id = "1oUDhxuy"
+            slug = "moogs-structure-lib"
         }
     }
 
@@ -73,6 +77,7 @@ publishMods {
             start = (project.findProperty('publishMcStart') ?: mcVersion)
             end = (project.findProperty('publishMcEnd') ?: mcVersion)
         }
+        requires("moogs-structure-lib")
     }
 }
 
