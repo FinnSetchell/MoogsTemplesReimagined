@@ -76,17 +76,17 @@
         {
           "type": "minecraft:item",
           "weight": 8,
-          "name": "minecraft:pottery_sherd_archer"
+          "name": "minecraft:archer_pottery_sherd"
         },
         {
           "type": "minecraft:item",
           "weight": 8,
-          "name": "minecraft:pottery_sherd_prize"
+          "name": "minecraft:prize_pottery_sherd"
         },
         {
           "type": "minecraft:item",
           "weight": 6,
-          "name": "minecraft:pottery_sherd_skull"
+          "name": "minecraft:skull_pottery_sherd"
         },
         {
           "type": "minecraft:item",
