@@ -6,6 +6,7 @@
       "weight": 1,
       "element": {
         "element_type": "minecraft:list_pool_element",
+        "projection": "rigid",
         "elements": [
           {
             "element_type": "minecraft:single_pool_element",
