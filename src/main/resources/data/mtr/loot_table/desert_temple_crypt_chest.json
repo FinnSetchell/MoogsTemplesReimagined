@@ -90,7 +90,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 12,
+          "weight": 2,
           "name": "minecraft:diamond_helmet",
           "functions": [
             {
@@ -106,7 +106,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 12,
+          "weight": 2,
           "name": "minecraft:diamond_chestplate",
           "functions": [
             {
@@ -122,7 +122,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 10,
+          "weight": 1,
           "name": "minecraft:diamond_sword",
           "functions": [
             {

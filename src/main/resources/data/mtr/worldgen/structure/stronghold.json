@@ -18,6 +18,7 @@
     },
     "spawn_overrides": {
         "monster": {
+            "bounding_box": "piece",
             "spawns": [
                 {
                     "type": "minecraft:silverfish",
