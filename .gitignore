@@ -34,3 +34,5 @@ gradle/
 
 # Git
 .gitignore
+/bin/
+/NAMESPACE_GUIDE.md
