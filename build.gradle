@@ -77,7 +77,6 @@ publishMods {
         }
         requires {
             id = "1oUDhxuy"
-            slug = "moogs-structure-lib"
         }
     }
 
