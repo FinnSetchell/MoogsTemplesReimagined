@@ -8,7 +8,7 @@
                 "location": "mtr:jungle_temple/v1_21_0_4/jungle_temple",
                 "locations": {
                     "1.21-1.21.4": "mtr:jungle_temple/v1_21_0_4/jungle_temple",
-                    "1.21.5-1.21.10": "mtr:jungle_temple/v1_21_5_10/jungle_temple"
+                    "1.21.5-1.21.11": "mtr:jungle_temple/v1_21_5_10/jungle_temple"
                 },
                 "processors": "minecraft:empty",
                 "projection": "rigid",
