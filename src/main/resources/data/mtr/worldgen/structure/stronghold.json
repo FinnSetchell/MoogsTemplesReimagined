@@ -4,6 +4,10 @@
     "jigsaw": "mtr:stronghold_side_pool",
     "size": 30,
     "project_start_to_heightmap": "WORLD_SURFACE_WG",
+    "y_allowance":
+    {
+        "min_y_allowed": 70
+    },
     "biomes": "#mtr:has_structure/overworld_biomes",
     "step": "surface_structures",
     "terrain_adaptation": "bury",
