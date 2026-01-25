@@ -1,0 +1,51 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+        {
+            "rolls": 6,
+            "entries": [
+                {"type":"item","name":"minecraft:soul_lantern","weight":10},
+                {"type":"item","name":"minecraft:glow_lichen","weight":10},
+                {"type":"item","name":"minecraft:pale_hanging_moss","weight":10},
+                {"type":"item","name":"minecraft:pale_moss_carpet","weight":10},
+                {"type":"item","name":"minecraft:pale_moss_block","weight":10},
+                {"type":"item","name":"minecraft:deepslate_bricks","weight":8},
+                {"type":"item","name":"minecraft:iron_bars","weight":6},
+                {"type":"item","name":"minecraft:mossy_cobblestone","weight":6},
+                {"type":"item","name":"minecraft:decorated_pot","weight":6},
+                {"type":"item","name":"minecraft:pale_oak_sapling","weight":5},
+                {"type":"item","name":"minecraft:open_eyeblossom","weight":5},
+                {"type":"item","name":"minecraft:closed_eyeblossom","weight":5},
+                {"type":"item","name":"minecraft:wither_rose","weight":4},
+                {"type":"item","name":"minecraft:leaf_litter","weight":4}
+            ]
+        },
+        {
+            "rolls": 4,
+            "entries": [
+                {"type":"item","name":"minecraft:stick","weight":8},
+                {"type":"item","name":"minecraft:string","weight":8},
+                {"type":"item","name":"minecraft:amethyst_shard","weight":6},
+                {"type":"item","name":"minecraft:iron_nugget","weight":6},
+                {"type":"item","name":"minecraft:leather","weight":5},
+                {"type":"item","name":"minecraft:bone","weight":5},
+                {"type":"item","name":"minecraft:potato","weight":5},
+                {"type":"item","name":"minecraft:feather","weight":5},
+                {"type":"item","name":"minecraft:book","weight":4},
+                {"type":"item","name":"minecraft:bowl","weight":4},
+                {"type":"item","name":"minecraft:glass_bottle","weight":4}
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {"type":"item","name":"minecraft:chainmail_helmet","weight":2},
+                {"type":"item","name":"minecraft:chainmail_chestplate","weight":2},
+                {"type":"item","name":"minecraft:chainmail_leggings","weight":2},
+                {"type":"item","name":"minecraft:chainmail_boots","weight":2},
+                {"type":"item","name":"minecraft:stone_sword","weight":2},
+                {"type":"item","name":"minecraft:shield","weight":2}
+            ]
+        }
+    ]
+}
