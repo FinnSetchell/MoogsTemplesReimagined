@@ -6,6 +6,10 @@
     "step": "strongholds",
     "terrain_adaptation": "bury",
     "cannot_spawn_in_liquid": false,
+    "y_allowance":
+    {
+        "min_y_allowed": 70
+    },
     "start_height": {
         "type": "minecraft:uniform",
         "max_inclusive": {
