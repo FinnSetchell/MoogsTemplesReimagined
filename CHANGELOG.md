@@ -1,4 +1,4 @@
 # Changelog
 
 ## Update
-Updated for 1.21.11
+- Improved Stronghold gen to avoid issues

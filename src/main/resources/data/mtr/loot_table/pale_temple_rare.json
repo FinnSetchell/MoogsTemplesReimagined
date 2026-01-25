@@ -1,0 +1,56 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+        {
+            "name": "rare_items",
+            "rolls": 4,
+            "entries": [
+                {"type":"item","name":"minecraft:diamond","weight":8},
+                {"type":"item","name":"minecraft:emerald","weight":8},
+                {"type":"item","name":"minecraft:raw_iron","weight":6},
+                {"type":"item","name":"minecraft:gold_nugget","weight":6},
+                {"type":"item","name":"minecraft:iron_nugget","weight":6},
+                {"type":"item","name":"minecraft:golden_carrot","weight":5},
+                {"type":"item","name":"minecraft:cooked_chicken","weight":5},
+                {"type":"item","name":"minecraft:honeycomb","weight":4},
+                {"type":"item","name":"minecraft:large_amethyst_bud","weight":4},
+                {"type":"item","name":"minecraft:wither_rose","weight":3},
+                {"type":"item","name":"minecraft:glow_lichen","weight":3},
+                {"type":"item","name":"minecraft:cobweb","weight":2},
+                {"type":"item","name":"minecraft:experience_bottle","weight":3},
+                {"type":"item","name":"minecraft:book","weight": 3,"functions":[{"function":"enchant_randomly"}]}
+            ]
+        },
+        {
+            "name": "common_items",
+            "rolls": 6,
+            "entries": [
+                {"type":"item","name":"minecraft:redstone","weight":8},
+                {"type":"item","name":"minecraft:flint","weight":6},
+                {"type":"item","name":"minecraft:book","weight":6},
+                {"type":"item","name":"minecraft:glistering_melon_slice","weight":6},
+                {"type":"item","name":"minecraft:pale_hanging_moss","weight":5},
+                {"type":"item","name":"minecraft:rooted_dirt","weight":5},
+                {"type":"item","name":"minecraft:deepslate","weight":5},
+                {"type":"item","name":"minecraft:red_mushroom","weight":4},
+                {"type":"item","name":"minecraft:brown_mushroom","weight":4}
+            ]
+        },
+        {
+            "name": "equipment_weapons",
+            "rolls": 2,
+            "entries": [
+                {"type":"item","name":"minecraft:iron_sword","weight":2},
+                {"type":"item","name":"minecraft:copper_sword","weight":2},
+                {"type":"item","name":"minecraft:diamond_helmet","weight":1},
+                {"type":"item","name":"minecraft:diamond_chestplate","weight":1},
+                {"type":"item","name":"minecraft:diamond_leggings","weight":1},
+                {"type":"item","name":"minecraft:diamond_boots","weight":1},
+                {"type":"item","name":"minecraft:iron_axe","weight":2},
+                {"type":"item","name":"minecraft:crossbow","weight":2},
+                {"type":"item","name":"minecraft:iron_horse_armor","weight":1},
+                {"type":"item","name":"minecraft:saddle","weight":1}
+            ]
+        }
+    ]
+}
