@@ -9,5 +9,8 @@
 ![Imgur](https://imgur.com/FVNwP9C.png)
 
 **Badlands Temple**
+![Imgur](https://imgur.com/5L61pzV.png)
+![Imgur](https://imgur.com/R5KfjEk.png)
+![Imgur](https://imgur.com/nZbWF7a.png)
 
 Enjoy!
