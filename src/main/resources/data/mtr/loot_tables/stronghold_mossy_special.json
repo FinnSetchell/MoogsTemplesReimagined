@@ -79,7 +79,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:grass",
+          "name": "minecraft:grass_block",
           "weight": 15,
           "functions": [
             {
