@@ -79,20 +79,6 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:grass",
-          "weight": 15,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 3,
-                "max": 10
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
           "name": "minecraft:oak_sapling",
           "weight": 10,
           "functions": [
