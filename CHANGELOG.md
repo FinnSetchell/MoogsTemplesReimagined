@@ -13,7 +13,6 @@
 ![Imgur](https://imgur.com/R5KfjEk.png)
 ![Imgur](https://imgur.com/nZbWF7a.png)
 
-
+1.1.2
 **Fixed**
-- Removed grass from loot tables to avoid grass renamed to short_grass in 1.20.3
-Enjoy!
+- Fixed redstone contraption in badlands temple
