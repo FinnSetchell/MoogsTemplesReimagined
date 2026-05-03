@@ -2,11 +2,11 @@
 
 [![Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/D1D8LKA5N)
 
-[![Discord](https://img.shields.io/discord/869218732650688543?color=3e72b3&label=DISCORD&style=for-the-badge)](https://discord.com/invite/S5nffJbuvA)
+[![Discord](https://img.shields.io/discord/869218732650688543?color=008080&label=DISCORD&style=for-the-badge)](https://discord.com/invite/S5nffJbuvA)
 
-[![My projects](https://img.shields.io/badge/CurseForge-projects-3e72b3?style=for-the-badge&logo=curseforge)](https://www.curseforge.com/members/finndog_123/projects)
+[![My projects](https://img.shields.io/badge/CurseForge-projects-008080?style=for-the-badge&logo=curseforge)](https://www.curseforge.com/members/finndog_123/projects)
 
-[![My projects](https://img.shields.io/badge/Modrinth-projects-3e72b3?style=for-the-badge&logo=modrinth)](https://modrinth.com/user/FinnSetchell)
+[![My projects](https://img.shields.io/badge/Modrinth-projects-008080?style=for-the-badge&logo=modrinth)](https://modrinth.com/user/FinnSetchell)
 
 ![Overview](https://www.bisecthosting.com/images/CF/Moogs_Temples_Reimagined/MP_MoogsTemplesReimagined_overview.webp)
 
