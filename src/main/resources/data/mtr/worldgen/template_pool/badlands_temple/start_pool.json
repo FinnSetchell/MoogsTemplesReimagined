@@ -6,9 +6,14 @@
             "weight": 1,
             "element": {
                 "location": "mtr:badlands_temple/badlands_temple_main",
+                "locations": {
+                    "1.21-1.21.1": "mtr:badlands_temple/badlands_temple_main",
+                    "1.21.2-1.21.11": "mtr:badlands_temple/1_21_2/badlands_temple_main",
+                    "26.1-26.1.2": "mtr:badlands_temple/1_21_2/badlands_temple_main"
+                },
                 "processors": "minecraft:empty",
                 "projection": "rigid",
-                "element_type": "minecraft:single_pool_element"
+                "element_type": "moogs_structures:versioned_single_pool_element"
             }
         }
     ]

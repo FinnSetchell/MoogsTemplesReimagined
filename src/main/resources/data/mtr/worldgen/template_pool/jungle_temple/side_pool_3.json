@@ -7,10 +7,11 @@
       "element": {
         "element_type": "moogs_structures:versioned_single_pool_element",
         "projection": "rigid",
-        "location": "mtr:jungle_temple/v1_21_0_4/jungle_temple_3",
+        "location": "mtr:jungle_temple/jungle_temple_3",
         "locations": {
-          "1.21-1.21.4": "mtr:jungle_temple/v1_21_0_4/jungle_temple_3",
-          "1.21.5-1.21.11": "mtr:jungle_temple/v1_21_5_10/jungle_temple_3"
+          "1.21-1.21.4": "mtr:jungle_temple/jungle_temple_3",
+          "1.21.5-1.21.11": "mtr:jungle_temple/1_21_5/jungle_temple_3",
+          "26.1-26.1.2": "mtr:jungle_temple/1_21_5/jungle_temple_3"
         },
         "processors": "minecraft:empty"
       }
