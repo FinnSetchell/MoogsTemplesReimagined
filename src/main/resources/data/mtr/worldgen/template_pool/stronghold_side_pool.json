@@ -316,6 +316,24 @@
                 "location": "mtr:stronghold/stronghold_corner_8",
                 "processors": "minecraft:empty"
             }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "location": "mtr:stronghold/stronghold_corner_9",
+                "processors": "minecraft:empty"
+            }
+        },
+        {
+            "weight": 6,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "location": "mtr:stronghold/stronghold_straight_1",
+                "processors": "minecraft:empty"
+            }
         }
     ]
 }
