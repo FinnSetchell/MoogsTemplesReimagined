@@ -6,11 +6,21 @@
 
 ### Fixed
 - Fixed the desert mega temple's lower chamber variants so each one can generate independently rather than all at once
-- Added two missing stronghold pieces (a corridor and a corner room) that were built but never wired up to generate
 - Replaced blocks in the nether temple and badlands temple that were added in newer versions of Minecraft
 - Fixed the stronghold library's signs, which were saved in a newer format and would have caused errors
 - Fixed the ocean temple's biome tag so it correctly targets all ocean biomes on 1.20
+
+### Added
+- Added two missing stronghold pieces (a corridor and a corner room) that were built but never wired up to generate
 - Assigned loot tables to several containers across the badlands temple, jungle temple, nether temple, and stronghold that were previously empty
+
+### Changed
+- Rebalanced the stronghold so it generates as a larger, more complex structure with more branching corridors and rooms
+  - ![image](https://shorturl.at/wy8Zp)
+  - ![image](https://shorturl.at/YZEH8)
+  - ![image](https://shorturl.at/n3nZQ)
+  - ![image](https://shorturl.at/Ts4uw)
+  - ![image](https://shorturl.at/MGEnB)
 
 ---
 
