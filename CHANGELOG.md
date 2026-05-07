@@ -2,6 +2,25 @@
 
 ---
 
+## [1.1.1] - 2026-05-07
+
+### Fixed
+- Replaced blocks in the badlands temple and desert mega temple that were added in newer versions of Minecraft
+- switched hardcoded items out with loot tables in some chests
+
+### Added
+- Assigned loot to several empty containers
+
+### Changed
+- Rebalanced the stronghold so it generates as a larger, more complex structure with more branching corridors and rooms
+  - ![image](https://shorturl.at/wy8Zp)
+  - ![image](https://shorturl.at/YZEH8)
+  - ![image](https://shorturl.at/n3nZQ)
+  - ![image](https://shorturl.at/Ts4uw)
+  - ![image](https://shorturl.at/MGEnB)
+  
+---
+
 ## [1.1.0] - 2025-09-14
 
 ### Added
