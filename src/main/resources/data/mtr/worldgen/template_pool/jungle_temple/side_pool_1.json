@@ -11,7 +11,7 @@
         "locations": {
           "1.21-1.21.4": "mtr:jungle_temple/jungle_temple_1",
           "1.21.5-1.21.11": "mtr:jungle_temple/1_21_5/jungle_temple_1",
-          "26.1-26.1.2": "mtr:jungle_temple/1_21_5/jungle_temple_1"
+          "26.1-26.2": "mtr:jungle_temple/1_21_5/jungle_temple_1"
         },
         "processors": "minecraft:empty"
       }

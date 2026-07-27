@@ -10,7 +10,7 @@
         "locations": {
           "1.21-1.21.4": "mtr:desert-mega-temple/desert-mega-temple-lower-1",
           "1.21.5-1.21.11": "mtr:desert-mega-temple/1_21_5/desert-mega-temple-lower-1",
-          "26.1-26.1.2": "mtr:desert-mega-temple/1_21_5/desert-mega-temple-lower-1"
+          "26.1-26.2": "mtr:desert-mega-temple/1_21_5/desert-mega-temple-lower-1"
         },
         "processors": "minecraft:empty",
         "projection": "rigid"
@@ -24,7 +24,7 @@
         "locations": {
           "1.21-1.21.4": "mtr:desert-mega-temple/desert-mega-temple-lower-2",
           "1.21.5-1.21.11": "mtr:desert-mega-temple/1_21_5/desert-mega-temple-lower-2",
-          "26.1-26.1.2": "mtr:desert-mega-temple/1_21_5/desert-mega-temple-lower-2"
+          "26.1-26.2": "mtr:desert-mega-temple/1_21_5/desert-mega-temple-lower-2"
         },
         "processors": "minecraft:empty",
         "projection": "rigid"
@@ -38,7 +38,7 @@
         "locations": {
           "1.21-1.21.4": "mtr:desert-mega-temple/desert-mega-temple-lower-3",
           "1.21.5-1.21.11": "mtr:desert-mega-temple/1_21_5/desert-mega-temple-lower-3",
-          "26.1-26.1.2": "mtr:desert-mega-temple/1_21_5/desert-mega-temple-lower-3"
+          "26.1-26.2": "mtr:desert-mega-temple/1_21_5/desert-mega-temple-lower-3"
         },
         "processors": "minecraft:empty",
         "projection": "rigid"
@@ -52,7 +52,7 @@
         "locations": {
           "1.21-1.21.4": "mtr:desert-mega-temple/desert-mega-temple-lower-4",
           "1.21.5-1.21.11": "mtr:desert-mega-temple/1_21_5/desert-mega-temple-lower-4",
-          "26.1-26.1.2": "mtr:desert-mega-temple/1_21_5/desert-mega-temple-lower-4"
+          "26.1-26.2": "mtr:desert-mega-temple/1_21_5/desert-mega-temple-lower-4"
         },
         "processors": "minecraft:empty",
         "projection": "rigid"

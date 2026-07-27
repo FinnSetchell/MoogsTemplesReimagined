@@ -9,7 +9,7 @@
                 "locations": {
                     "1.21-1.21.4": "mtr:jungle_temple/jungle_temple",
                     "1.21.5-1.21.11": "mtr:jungle_temple/1_21_5/jungle_temple",
-                    "26.1-26.1.2": "mtr:jungle_temple/1_21_5/jungle_temple"
+                    "26.1-26.2": "mtr:jungle_temple/1_21_5/jungle_temple"
                 },
                 "processors": "minecraft:empty",
                 "projection": "rigid",

@@ -9,7 +9,7 @@
                 "locations": {
                     "1.21-1.21.1": "mtr:badlands_temple/badlands_temple_bottom",
                     "1.21.2-1.21.11": "mtr:badlands_temple/1_21_2/badlands_temple_bottom",
-                    "26.1-26.1.2": "mtr:badlands_temple/1_21_2/badlands_temple_bottom"
+                    "26.1-26.2": "mtr:badlands_temple/1_21_2/badlands_temple_bottom"
                 },
                 "processors": "minecraft:empty",
                 "projection": "rigid",
