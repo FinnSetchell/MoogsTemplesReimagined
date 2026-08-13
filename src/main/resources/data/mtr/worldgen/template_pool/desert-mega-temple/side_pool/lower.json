@@ -8,7 +8,7 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "mtr:desert-mega-temple/desert-mega-temple-lower-1",
-        "processors": "minecraft:empty"
+        "processors": "mtr:desert_temple_replace_loot"
       }
     },
     {
@@ -17,7 +17,7 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "mtr:desert-mega-temple/desert-mega-temple-lower-2",
-        "processors": "minecraft:empty"
+        "processors": "mtr:desert_temple_replace_loot"
       }
     },
     {
@@ -26,7 +26,7 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "mtr:desert-mega-temple/desert-mega-temple-lower-3",
-        "processors": "minecraft:empty"
+        "processors": "mtr:desert_temple_replace_loot"
       }
     },
     {
@@ -35,7 +35,7 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "mtr:desert-mega-temple/desert-mega-temple-lower-4",
-        "processors": "minecraft:empty"
+        "processors": "mtr:desert_temple_replace_loot"
       }
     }
   ]

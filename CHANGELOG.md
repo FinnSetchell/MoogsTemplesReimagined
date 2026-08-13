@@ -4,7 +4,8 @@
 
 ## [1.1.4] - 2026-05-07
 
-_Pending. Update this header date and replace this line with the actual changes before tagging._
+### Added
+- Optional "Replace Vanilla Temples" setting that swaps the vanilla desert pyramid for Moog's desert temple. When it's on, the desert temple's wall chests use the vanilla desert pyramid loot, so items other mods add to desert pyramids still show up in the temple. Off by default; you can turn it on in the Moogs Structures config.
 
 ---
 

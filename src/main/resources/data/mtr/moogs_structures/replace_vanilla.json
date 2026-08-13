@@ -1,0 +1,17 @@
+{
+    "presets": [
+        {
+            "id": "replace_vanilla_temples",
+            "name": "Replace Vanilla Temples",
+            "description": "Replace vanilla temples with Moog's Temples Reimagined equivalents. Vanilla loot injections are preserved.",
+            "default_enabled": false,
+            "replacements": [
+                {
+                    "vanilla_key": "desert_pyramid",
+                    "vanilla_structure": "minecraft:desert_pyramid",
+                    "replacement_structure": "mtr:desert_temple"
+                }
+            ]
+        }
+    ]
+}
