@@ -1,15 +1,54 @@
 {
     "presets": [
         {
-            "id": "replace_vanilla_temples",
-            "name": "Replace Vanilla Temples",
-            "description": "Replace vanilla temples with Moog's Temples Reimagined equivalents. Vanilla loot injections are preserved.",
+            "id": "replace_desert_temple",
+            "name": "Replace Desert Pyramid",
+            "description": "Replace the vanilla desert pyramid with Moog's desert temple. The desert temple's wall chests use the vanilla desert pyramid loot so mod loot injections still show up.",
             "default_enabled": false,
             "replacements": [
                 {
                     "vanilla_key": "desert_pyramid",
                     "vanilla_structure": "minecraft:desert_pyramid",
                     "replacement_structure": "mtr:desert_temple"
+                }
+            ]
+        },
+        {
+            "id": "replace_jungle_temple",
+            "name": "Replace Jungle Temple",
+            "description": "Replace the vanilla jungle temple with Moog's jungle temple. The main chests use the vanilla jungle temple loot so mod loot injections still show up.",
+            "default_enabled": false,
+            "replacements": [
+                {
+                    "vanilla_key": "jungle_pyramid",
+                    "vanilla_structure": "minecraft:jungle_pyramid",
+                    "replacement_structure": "mtr:jungle_temple"
+                }
+            ]
+        },
+        {
+            "id": "replace_ocean_monument",
+            "name": "Replace Ocean Monument",
+            "description": "Replace the vanilla ocean monument with Moog's ocean temple. Ocean explorer maps lead to the ocean temple.",
+            "default_enabled": false,
+            "replacements": [
+                {
+                    "vanilla_key": "monument",
+                    "vanilla_structure": "minecraft:monument",
+                    "replacement_structure": "mtr:ocean_temple"
+                }
+            ]
+        },
+        {
+            "id": "replace_stronghold",
+            "name": "Replace Stronghold",
+            "description": "Replace the vanilla stronghold with Moog's stronghold. Eyes of ender lead to it, and its corridor chests use the vanilla stronghold loot so mod loot injections still show up.",
+            "default_enabled": false,
+            "replacements": [
+                {
+                    "vanilla_key": "stronghold",
+                    "vanilla_structure": "minecraft:stronghold",
+                    "replacement_structure": "mtr:stronghold"
                 }
             ]
         }

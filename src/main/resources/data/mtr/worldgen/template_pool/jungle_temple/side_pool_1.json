@@ -8,7 +8,7 @@
         "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
         "location": "mtr:jungle_temple/jungle_temple_1",
-        "processors": "minecraft:empty"
+        "processors": "mtr:jungle_temple_replace_loot"
       }
     }
   ]

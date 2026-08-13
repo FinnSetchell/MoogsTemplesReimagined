@@ -6,7 +6,7 @@
             "weight": 1,
             "element": {
                 "location": "mtr:jungle_temple/jungle_temple",
-                "processors": "minecraft:empty",
+                "processors": "mtr:jungle_temple_replace_loot",
                 "projection": "rigid",
                 "element_type": "minecraft:single_pool_element"
             }

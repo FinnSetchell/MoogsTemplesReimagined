@@ -8,7 +8,7 @@
                 "element_type": "minecraft:single_pool_element",
                 "projection": "rigid",
                 "location": "mtr:stronghold/stronghold_2",
-                "processors": "minecraft:empty"
+                "processors": "mtr:stronghold_replace_loot"
             }
         }
     ]
