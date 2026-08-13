@@ -5,7 +5,9 @@
 ## [1.1.4] - 2026-05-07
 
 ### Added
-- Optional "Replace Vanilla Temples" setting that swaps the vanilla desert pyramid for Moog's desert temple. When it's on, the desert temple's wall chests use the vanilla desert pyramid loot, so items other mods add to desert pyramids still show up in the temple. Off by default; you can turn it on in the Moogs Structures config.
+- Optional settings to replace vanilla temples with Moog's versions: desert pyramid, jungle temple, ocean monument, and stronghold. Each is off by default and can be toggled from the Moogs Structures config (in game, or in the config file). When a temple is replaced, one of its chest types uses the matching vanilla loot table so items other mods add to that structure still show up.
+  - Ocean explorer maps lead to the ocean temple, and eyes of ender lead to the stronghold, when those are replaced.
+  - The stronghold now generates in the same circular ring pattern as the vanilla one. While it is not replacing vanilla it spawns about a fifth as often; when it is replacing, it spawns just as often as the vanilla stronghold would have.
 
 ---
 
