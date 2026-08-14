@@ -1,15 +1,7 @@
 {
     "structures": {
         "mod_name": "Moog's Temples Reimagined",
-        "preview_url_template": "https://previews.moogsmods.com/temples-reimagined/1.21.1/{structure}",
-        "entries": [
-            { "structure": "mtr:desert_temple", "name": "Desert Temple", "spacing_key": "mtr:desert_temple" },
-            { "structure": "mtr:jungle_temple", "name": "Jungle Temple", "spacing_key": "mtr:jungle_temple" },
-            { "structure": "mtr:ocean_temple", "name": "Ocean Temple", "spacing_key": "mtr:ocean_temple" },
-            { "structure": "mtr:badlands_temple", "name": "Badlands Temple", "spacing_key": "mtr:badlands_temple" },
-            { "structure": "mtr:nether_temple", "name": "Nether Temple", "spacing_key": "mtr:nether_temple" },
-            { "structure": "mtr:stronghold", "name": "Stronghold" }
-        ]
+        "mod_slug": "temples-reimagined"
     },
     "presets": [
         {

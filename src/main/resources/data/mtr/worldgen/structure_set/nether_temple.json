@@ -9,8 +9,6 @@
         "type": "moogs_structures:advanced_random_spread",
         "salt": 887364097,
         "spacing": 90,
-        "separation": 25,
-        "spacing_key": "mtr:nether_temple",
-        "structure_id": "mtr:nether_temple"
+        "separation": 25
     }
 }

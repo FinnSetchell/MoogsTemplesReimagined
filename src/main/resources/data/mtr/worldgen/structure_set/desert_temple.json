@@ -9,8 +9,6 @@
         "type": "moogs_structures:advanced_random_spread",
         "salt": 225874987,
         "spacing": 50,
-        "separation": 8,
-        "spacing_key": "mtr:desert_temple",
-        "structure_id": "mtr:desert_temple"
+        "separation": 8
     }
 }
