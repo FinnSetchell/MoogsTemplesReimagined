@@ -9,6 +9,7 @@
         "type": "moogs_structures:advanced_random_spread",
         "salt": 154471789,
         "spacing": 60,
-        "separation": 30
+        "separation": 30,
+        "spacing_key": "mtr:jungle_temple"
     }
 }
