@@ -10,6 +10,7 @@
         "salt": 154471789,
         "spacing": 60,
         "separation": 30,
-        "spacing_key": "mtr:jungle_temple"
+        "spacing_key": "mtr:jungle_temple",
+        "structure_id": "mtr:jungle_temple"
     }
 }

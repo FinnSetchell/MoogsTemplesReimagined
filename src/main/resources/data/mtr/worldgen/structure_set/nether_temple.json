@@ -10,6 +10,7 @@
         "salt": 887364097,
         "spacing": 90,
         "separation": 25,
-        "spacing_key": "mtr:nether_temple"
+        "spacing_key": "mtr:nether_temple",
+        "structure_id": "mtr:nether_temple"
     }
 }

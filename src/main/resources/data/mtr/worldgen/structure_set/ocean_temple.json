@@ -10,6 +10,7 @@
         "salt": 231230495,
         "spacing": 60,
         "separation": 30,
-        "spacing_key": "mtr:ocean_temple"
+        "spacing_key": "mtr:ocean_temple",
+        "structure_id": "mtr:ocean_temple"
     }
 }

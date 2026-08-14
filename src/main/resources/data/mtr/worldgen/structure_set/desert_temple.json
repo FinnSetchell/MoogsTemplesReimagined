@@ -10,6 +10,7 @@
         "salt": 225874987,
         "spacing": 50,
         "separation": 8,
-        "spacing_key": "mtr:desert_temple"
+        "spacing_key": "mtr:desert_temple",
+        "structure_id": "mtr:desert_temple"
     }
 }
