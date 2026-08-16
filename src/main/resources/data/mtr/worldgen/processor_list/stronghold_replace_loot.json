@@ -1,0 +1,13 @@
+{
+    "processors": [
+        {
+            "processor_type": "moogs_structures:vanilla_loot_swap_processor",
+            "modid": "mtr",
+            "vanilla_key": "stronghold",
+            "seed_strategy": "randomize",
+            "loot_table_mapping": {
+                "mtr:stronghold_corridor_chest": "minecraft:chests/stronghold_corridor"
+            }
+        }
+    ]
+}

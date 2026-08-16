@@ -11,7 +11,7 @@
                     "1.21.5-1.21.11": "mtr:jungle_temple/1_21_5/jungle_temple",
                     "26.1-26.2": "mtr:jungle_temple/1_21_5/jungle_temple"
                 },
-                "processors": "minecraft:empty",
+                "processors": "mtr:jungle_temple_replace_loot",
                 "projection": "rigid",
                 "element_type": "moogs_structures:versioned_single_pool_element"
             }

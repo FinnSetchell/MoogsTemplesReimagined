@@ -1,0 +1,13 @@
+{
+    "processors": [
+        {
+            "processor_type": "moogs_structures:vanilla_loot_swap_processor",
+            "modid": "mtr",
+            "vanilla_key": "jungle_pyramid",
+            "seed_strategy": "randomize",
+            "loot_table_mapping": {
+                "mtr:jungle_temple_main_common": "minecraft:chests/jungle_temple"
+            }
+        }
+    ]
+}
