@@ -8,6 +8,20 @@
             "loot_table_mapping": {
                 "mtr:desert_temple_wall_chest": "minecraft:chests/desert_pyramid"
             }
+        },
+        {
+            "processor_type": "moogs_structures:pillar_processor",
+            "pillar_length": 24,
+            "pillar_trigger_and_replacements": [
+                {
+                    "trigger": {
+                        "Name": "minecraft:lime_stained_glass"
+                    },
+                    "replacement": {
+                        "Name": "minecraft:sandstone"
+                    }
+                }
+            ]
         }
     ]
 }
