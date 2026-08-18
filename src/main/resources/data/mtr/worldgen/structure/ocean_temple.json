@@ -6,10 +6,13 @@
     "terrain_height_radius_check": 2,
     "allowed_terrain_height_range": 5,
     "valid_biome_radius_check": 4,
-    "max_y_allowed": 40,
+    "y_allowance": {
+        "max_y_allowed": 41
+    },
     "biomes": "#mtr:has_structure/ocean_biomes",
     "step": "surface_structures",
-    "terrain_adaptation": "beard_thin",
+    "terrain_adaptation": "none",
+    "burying_type": "AVERAGE_LAND",
     "cannot_spawn_in_liquid": false,
     "start_height": {
         "absolute": 0

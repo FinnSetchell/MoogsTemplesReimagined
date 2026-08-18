@@ -1,0 +1,8 @@
+{
+    "processors": [
+        {
+            "processor_type": "moogs_structures:flood_with_water_processor",
+            "flood_level": 62
+        }
+    ]
+}
