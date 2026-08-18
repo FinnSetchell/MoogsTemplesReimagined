@@ -1,0 +1,19 @@
+{
+  "name": "mtr:jungle_temple/side_pool_stairs",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "moogs_structures:versioned_single_pool_element",
+        "projection": "rigid",
+        "location": "mtr:jungle_temple/stairs",
+        "locations": {
+          "1.21-1.21.11": "mtr:jungle_temple/stairs",
+          "26.1-26.2": "mtr:jungle_temple/stairs"
+        },
+        "processors": "mtr:jungle_temple_replace_loot"
+      }
+    }
+  ]
+}

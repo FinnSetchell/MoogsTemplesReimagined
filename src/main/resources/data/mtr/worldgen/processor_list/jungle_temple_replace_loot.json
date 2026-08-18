@@ -8,6 +8,20 @@
             "loot_table_mapping": {
                 "mtr:jungle_temple_main_common": "minecraft:chests/jungle_temple"
             }
+        },
+        {
+            "processor_type": "moogs_structures:pillar_processor",
+            "pillar_length": 24,
+            "pillar_trigger_and_replacements": [
+                {
+                    "trigger": {
+                        "Name": "minecraft:lime_stained_glass"
+                    },
+                    "replacement": {
+                        "Name": "minecraft:stone_bricks"
+                    }
+                }
+            ]
         }
     ]
 }
