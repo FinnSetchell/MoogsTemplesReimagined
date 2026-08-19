@@ -14,9 +14,9 @@
 ### Changed
 - Greatly improved the style of generation for the following structures. Most of these also generate more often, which can easily be configured in the Moogs Structures config.
   - Desert temple
-    - ![image](https://pub-24a4e0e7ea8544a5b6f73c3a23512589.r2.dev/images/dd299b68a49d4190b2fbcb7fd6f46c67.png)
     - ![image](https://pub-24a4e0e7ea8544a5b6f73c3a23512589.r2.dev/images/c3050f8b64db4856bafdf85f7743a055.png)
   - Jungle temple
+    - ![image](https://pub-24a4e0e7ea8544a5b6f73c3a23512589.r2.dev/images/dd299b68a49d4190b2fbcb7fd6f46c67.png)
   - Nether temple
     - ![image](https://pub-24a4e0e7ea8544a5b6f73c3a23512589.r2.dev/images/c0cc6e13e5a7447fbb0f2733f131a287.png)
   - Ocean temple
