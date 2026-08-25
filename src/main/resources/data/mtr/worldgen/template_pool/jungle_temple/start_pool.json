@@ -8,7 +8,11 @@
                 "location": "mtr:jungle_temple/jungle_temple",
                 "processors": "mtr:jungle_temple_replace_loot",
                 "projection": "rigid",
-                "element_type": "minecraft:single_pool_element"
+                "element_type": "moogs_structures:versioned_single_pool_element",
+                "locations": {
+                    "1.20-1.20.1": "mtr:jungle_temple/jungle_temple",
+                    "1.20.2-1.20.6": "mtr:jungle_temple/v1_20_2/jungle_temple"
+                }
             }
         }
     ]

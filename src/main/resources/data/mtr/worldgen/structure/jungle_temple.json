@@ -3,17 +3,17 @@
     "start_pool": "mtr:jungle_temple/start_pool",
     "size": 10,
     "project_start_to_heightmap": "WORLD_SURFACE_WG",
-    "terrain_height_radius_check": 2,
-    "allowed_terrain_height_range": 5,
-    "valid_biome_radius_check": 4,
+    "terrain_height_radius_check": 3,
+    "allowed_terrain_height_range": 14,
     "liquid_settings": "ignore_waterlogging",
     "biomes": "#mtr:has_structure/jungle_biomes",
     "step": "surface_structures",
-    "terrain_adaptation": "beard_thin",
+    "terrain_adaptation": "none",
     "cannot_spawn_in_liquid": true,
     "start_height": {
         "absolute": 0
     },
+    "burying_type": "AVERAGE_LAND",
     "spawn_overrides": {
         "monster": {
             "bounding_box": "piece",

@@ -8,6 +8,95 @@
             "loot_table_mapping": {
                 "mtr:stronghold_corridor_chest": "minecraft:chests/stronghold_corridor"
             }
+        },
+        {
+            "processor_type": "moogs_structures:equip_armor_stand_processor",
+            "armor_sets": [
+                {
+                    "armor": {
+                        "head": {
+                            "id": "minecraft:leather_helmet",
+                            "Count": 1
+                        },
+                        "chest": {
+                            "id": "minecraft:leather_chestplate",
+                            "Count": 1
+                        },
+                        "legs": {
+                            "id": "minecraft:leather_leggings",
+                            "Count": 1
+                        },
+                        "feet": {
+                            "id": "minecraft:leather_boots",
+                            "Count": 1
+                        }
+                    },
+                    "weight": 3
+                },
+                {
+                    "armor": {
+                        "head": {
+                            "id": "minecraft:iron_helmet",
+                            "Count": 1
+                        },
+                        "chest": {
+                            "id": "minecraft:iron_chestplate",
+                            "Count": 1
+                        },
+                        "legs": {
+                            "id": "minecraft:iron_leggings",
+                            "Count": 1
+                        },
+                        "feet": {
+                            "id": "minecraft:iron_boots",
+                            "Count": 1
+                        }
+                    },
+                    "weight": 2
+                },
+                {
+                    "armor": {
+                        "head": {
+                            "id": "minecraft:chainmail_helmet",
+                            "Count": 1
+                        },
+                        "chest": {
+                            "id": "minecraft:chainmail_chestplate",
+                            "Count": 1
+                        },
+                        "legs": {
+                            "id": "minecraft:chainmail_leggings",
+                            "Count": 1
+                        },
+                        "feet": {
+                            "id": "minecraft:chainmail_boots",
+                            "Count": 1
+                        }
+                    },
+                    "weight": 2
+                },
+                {
+                    "armor": {
+                        "head": {
+                            "id": "minecraft:golden_helmet",
+                            "Count": 1
+                        },
+                        "chest": {
+                            "id": "minecraft:golden_chestplate",
+                            "Count": 1
+                        },
+                        "legs": {
+                            "id": "minecraft:golden_leggings",
+                            "Count": 1
+                        },
+                        "feet": {
+                            "id": "minecraft:golden_boots",
+                            "Count": 1
+                        }
+                    },
+                    "weight": 1
+                }
+            ]
         }
     ]
 }
