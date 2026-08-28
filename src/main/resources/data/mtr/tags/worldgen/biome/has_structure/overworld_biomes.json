@@ -1,6 +1,5 @@
 {
   "replace": false,
-
   "_comment": " This biome tag can specify the biome directly. Or specify another biome tag by starting with # ",
   "values": [
     "#minecraft:is_jungle",
@@ -37,16 +36,16 @@
     {
       "id": "biomesoplenty:seasonal_forest",
       "required": false
-    },    
-	  {
+    },
+    {
       "id": "biomesoplenty:orchard",
       "required": false
     },
-	  {
+    {
       "id": "biomesoplenty:seasonal_pumpkin_patch",
       "required": false
     },
-	  {
+    {
       "id": "biomesoplenty:dead_forest",
       "required": false
     },
@@ -60,6 +59,66 @@
     },
     {
       "id": "biomesoplenty:field",
+      "required": false
+    },
+    {
+      "id": "#c:jungle",
+      "required": false
+    },
+    {
+      "id": "#c:taiga",
+      "required": false
+    },
+    {
+      "id": "#c:plains",
+      "required": false
+    },
+    {
+      "id": "#c:savanna",
+      "required": false
+    },
+    {
+      "id": "#c:forest",
+      "required": false
+    },
+    {
+      "id": "#c:birch_forest",
+      "required": false
+    },
+    {
+      "id": "#c:flower_forests",
+      "required": false
+    },
+    {
+      "id": "#c:is_jungle",
+      "required": false
+    },
+    {
+      "id": "#c:is_taiga",
+      "required": false
+    },
+    {
+      "id": "#c:is_plains",
+      "required": false
+    },
+    {
+      "id": "#c:is_savanna",
+      "required": false
+    },
+    {
+      "id": "#c:is_forest",
+      "required": false
+    },
+    {
+      "id": "#c:is_birch_forest",
+      "required": false
+    },
+    {
+      "id": "#c:is_flower_forest",
+      "required": false
+    },
+    {
+      "id": "#forge:is_plains",
       "required": false
     }
   ]
