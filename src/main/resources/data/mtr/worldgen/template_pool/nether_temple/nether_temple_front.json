@@ -5,10 +5,15 @@
     {
       "weight": 1,
       "element": {
-        "element_type": "minecraft:single_pool_element",
+        "location": "mtr:1_20_5/nether_temple/nether_temple_front",
+        "locations": {
+          "1.20-1.20.2": "mtr:1_20_0/nether_temple/nether_temple_front",
+          "1.20.3-1.20.4": "mtr:1_20_3/nether_temple/nether_temple_front",
+          "1.20.5-1.20.6": "mtr:1_20_5/nether_temple/nether_temple_front"
+        },
+        "processors": "mtr:nether_temple_spawners",
         "projection": "rigid",
-        "location": "mtr:nether_temple/nether_temple_front",
-        "processors": "minecraft:empty"
+        "element_type": "moogs_structures:versioned_single_pool_element"
       }
     }
   ]

@@ -1,14 +1,14 @@
 {
-  "name": "mtr:nether_temple/nether_temple_statue",
+  "name": "mtr:nether_temple/mobs/ember_acolyte",
   "fallback": "minecraft:empty",
   "elements": [
     {
       "weight": 1,
       "element": {
-        "location": "mtr:1_20_5/nether_temple/nether_temple_statue",
+        "location": "mtr:1_20_5/nether_temple/mobs/ember_acolyte",
         "locations": {
-          "1.20-1.20.4": "mtr:1_20_0/nether_temple/nether_temple_statue",
-          "1.20.5-1.20.6": "mtr:1_20_5/nether_temple/nether_temple_statue"
+          "1.20-1.20.4": "mtr:1_20_0/nether_temple/mobs/ember_acolyte",
+          "1.20.5-1.20.6": "mtr:1_20_5/nether_temple/mobs/ember_acolyte"
         },
         "processors": "minecraft:empty",
         "projection": "rigid",
