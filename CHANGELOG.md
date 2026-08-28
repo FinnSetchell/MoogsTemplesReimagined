@@ -32,9 +32,9 @@
     - ![image](https://pub-24a4e0e7ea8544a5b6f73c3a23512589.r2.dev/images/066e8f8a9c8948169332ba975205e57a.png)
 - Reworked the stronghold again: how it is placed, which pieces it picks from, and how many of each can appear in one stronghold. Expect more variety and fewer repeated rooms.
 - Tuned how far apart ocean temples generate.
-
 - Roughly halved the chance of finding diamond gear in the desert temple's chests.
 - Removed the trident from the jungle temple's loot.
+- Now requires Moog's Structure Lib 3.1.2 or newer.
 
 
 ### Fixed
