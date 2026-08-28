@@ -1,15 +1,19 @@
 {
-    "name": "mtr:stronghold_start_pool",
-    "fallback": "minecraft:empty",
-    "elements": [
-        {
-            "weight": 1,
-            "element": {
-                "location": "mtr:stronghold/stronghold",
-                "processors": "mtr:stronghold_replace_loot",
-                "projection": "rigid",
-                "element_type": "minecraft:single_pool_element"
-            }
-        }
-    ]
+  "name": "mtr:stronghold_start_pool",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "mtr:1_21_5/stronghold/stronghold",
+        "locations": {
+          "1.21-1.21.4": "mtr:1_21_0/stronghold/stronghold",
+          "1.21.5-26.2": "mtr:1_21_5/stronghold/stronghold"
+        },
+        "processors": "mtr:stronghold_replace_loot",
+        "projection": "rigid",
+        "element_type": "moogs_structures:versioned_single_pool_element"
+      }
+    }
+  ]
 }

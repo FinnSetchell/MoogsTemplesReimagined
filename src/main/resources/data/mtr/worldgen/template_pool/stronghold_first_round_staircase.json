@@ -1,15 +1,18 @@
 {
-    "name": "mtr:stronghold_first_round_staircase",
-    "fallback": "minecraft:empty",
-    "elements": [
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "location": "mtr:stronghold/stronghold_round_staircase_first",
-                "processors": "mtr:stronghold_replace_loot"
-            }
-        }
-    ]
+  "name": "mtr:stronghold_first_round_staircase",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "mtr:1_21_0/stronghold/stronghold_round_staircase_first",
+        "locations": {
+          "1.21-26.2": "mtr:1_21_0/stronghold/stronghold_round_staircase_first"
+        },
+        "processors": "mtr:stronghold_replace_loot",
+        "projection": "rigid",
+        "element_type": "moogs_structures:versioned_single_pool_element"
+      }
+    }
+  ]
 }

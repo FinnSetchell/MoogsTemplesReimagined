@@ -1,102 +1,200 @@
 {
-    "processors": [
+  "processors": [
+    {
+      "processor_type": "moogs_structures:vanilla_loot_swap_processor",
+      "modid": "mtr",
+      "vanilla_key": "stronghold",
+      "seed_strategy": "randomize",
+      "loot_table_mapping": {
+        "mtr:stronghold_corridor_chest": "minecraft:chests/stronghold_corridor"
+      }
+    },
+    {
+      "processor_type": "moogs_structures:equip_armor_stand_processor",
+      "armor_sets": [
         {
-            "processor_type": "moogs_structures:vanilla_loot_swap_processor",
-            "modid": "mtr",
-            "vanilla_key": "stronghold",
-            "seed_strategy": "randomize",
-            "loot_table_mapping": {
-                "mtr:stronghold_corridor_chest": "minecraft:chests/stronghold_corridor"
+          "armor": {
+            "head": {
+              "id": "minecraft:leather_helmet",
+              "count": 1
+            },
+            "chest": {
+              "id": "minecraft:leather_chestplate",
+              "count": 1
+            },
+            "legs": {
+              "id": "minecraft:leather_leggings",
+              "count": 1
+            },
+            "feet": {
+              "id": "minecraft:leather_boots",
+              "count": 1
             }
+          },
+          "weight": 3
         },
         {
-            "processor_type": "moogs_structures:equip_armor_stand_processor",
-            "armor_sets": [
-                {
-                    "armor": {
-                        "head": {
-                            "id": "minecraft:leather_helmet",
-                            "count": 1
-                        },
-                        "chest": {
-                            "id": "minecraft:leather_chestplate",
-                            "count": 1
-                        },
-                        "legs": {
-                            "id": "minecraft:leather_leggings",
-                            "count": 1
-                        },
-                        "feet": {
-                            "id": "minecraft:leather_boots",
-                            "count": 1
-                        }
-                    },
-                    "weight": 3
-                },
-                {
-                    "armor": {
-                        "head": {
-                            "id": "minecraft:iron_helmet",
-                            "count": 1
-                        },
-                        "chest": {
-                            "id": "minecraft:iron_chestplate",
-                            "count": 1
-                        },
-                        "legs": {
-                            "id": "minecraft:iron_leggings",
-                            "count": 1
-                        },
-                        "feet": {
-                            "id": "minecraft:iron_boots",
-                            "count": 1
-                        }
-                    },
-                    "weight": 2
-                },
-                {
-                    "armor": {
-                        "head": {
-                            "id": "minecraft:golden_helmet",
-                            "count": 1
-                        },
-                        "chest": {
-                            "id": "minecraft:golden_chestplate",
-                            "count": 1
-                        },
-                        "legs": {
-                            "id": "minecraft:golden_leggings",
-                            "count": 1
-                        },
-                        "feet": {
-                            "id": "minecraft:golden_boots",
-                            "count": 1
-                        }
-                    },
-                    "weight": 1
-                },
-                {
-                    "armor": {
-                        "head": {
-                            "id": "minecraft:chainmail_helmet",
-                            "count": 1
-                        },
-                        "chest": {
-                            "id": "minecraft:chainmail_chestplate",
-                            "count": 1
-                        },
-                        "legs": {
-                            "id": "minecraft:chainmail_leggings",
-                            "count": 1
-                        },
-                        "feet": {
-                            "id": "minecraft:chainmail_boots",
-                            "count": 1
-                        }
-                    },
-                    "weight": 2
-                }
-            ]
+          "armor": {
+            "head": {
+              "id": "minecraft:iron_helmet",
+              "count": 1
+            },
+            "chest": {
+              "id": "minecraft:iron_chestplate",
+              "count": 1
+            },
+            "legs": {
+              "id": "minecraft:iron_leggings",
+              "count": 1
+            },
+            "feet": {
+              "id": "minecraft:iron_boots",
+              "count": 1
+            }
+          },
+          "weight": 2
+        },
+        {
+          "armor": {
+            "head": {
+              "id": "minecraft:golden_helmet",
+              "count": 1
+            },
+            "chest": {
+              "id": "minecraft:golden_chestplate",
+              "count": 1
+            },
+            "legs": {
+              "id": "minecraft:golden_leggings",
+              "count": 1
+            },
+            "feet": {
+              "id": "minecraft:golden_boots",
+              "count": 1
+            }
+          },
+          "weight": 1
+        },
+        {
+          "armor": {
+            "head": {
+              "id": "minecraft:chainmail_helmet",
+              "count": 1
+            },
+            "chest": {
+              "id": "minecraft:chainmail_chestplate",
+              "count": 1
+            },
+            "legs": {
+              "id": "minecraft:chainmail_leggings",
+              "count": 1
+            },
+            "feet": {
+              "id": "minecraft:chainmail_boots",
+              "count": 1
+            }
+          },
+          "weight": 2
         }
-    ]
+      ]
+    },
+    {
+      "processor_type": "moogs_structures:spawner_randomizing_processor",
+      "weighted_entities": [
+        {
+          "entity": "minecraft:silverfish",
+          "weight": 1
+        }
+      ],
+      "min_spawn_delay": 200,
+      "max_spawn_delay": 800,
+      "spawn_count": 4,
+      "spawn_range": 4,
+      "max_nearby_entities": 6,
+      "required_player_range": 16
+    },
+    {
+      "processor_type": "minecraft:rule",
+      "rules": [
+        {
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:stone",
+            "probability": 0.05
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:infested_stone"
+          }
+        },
+        {
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:stone_bricks",
+            "probability": 0.05
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:infested_stone_bricks"
+          }
+        },
+        {
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:cobblestone",
+            "probability": 0.05
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:infested_cobblestone"
+          }
+        },
+        {
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:cracked_stone_bricks",
+            "probability": 0.05
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:infested_cracked_stone_bricks"
+          }
+        },
+        {
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:mossy_stone_bricks",
+            "probability": 0.05
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:infested_mossy_stone_bricks"
+          }
+        },
+        {
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:chiseled_stone_bricks",
+            "probability": 0.05
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:infested_chiseled_stone_bricks"
+          }
+        }
+      ]
+    }
+  ]
 }
