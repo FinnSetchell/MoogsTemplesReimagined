@@ -1,0 +1,20 @@
+{
+  "processors": [
+    {
+      "processor_type": "moogs_structures:flood_with_water_processor",
+      "flood_level": 62
+    },
+    {
+      "processor_type": "moogs_structures:spawner_randomizing_processor",
+      "weighted_entities": [
+        { "entity": "minecraft:guardian", "weight": 1 }
+      ],
+      "min_spawn_delay": 200,
+      "max_spawn_delay": 800,
+      "spawn_count": 4,
+      "spawn_range": 4,
+      "max_nearby_entities": 6,
+      "required_player_range": 16
+    }
+  ]
+}
