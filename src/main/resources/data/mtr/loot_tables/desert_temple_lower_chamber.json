@@ -116,13 +116,13 @@
                 "min": 15,
                 "max": 30
               },
-              "options": "#minecraft:on_random_loot"
+              "treasure": true
             }
           ]
         },
         {
           "type": "minecraft:item",
-          "weight": 10,
+          "weight": 4,
           "name": "minecraft:diamond_horse_armor"
         },
         {

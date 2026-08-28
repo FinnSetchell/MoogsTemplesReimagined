@@ -90,7 +90,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 12,
+          "weight": 2,
           "name": "minecraft:diamond_helmet",
           "functions": [
             {
@@ -100,13 +100,13 @@
                 "min": 20,
                 "max": 30
               },
-              "options": "#minecraft:on_random_loot"
+              "treasure": true
             }
           ]
         },
         {
           "type": "minecraft:item",
-          "weight": 12,
+          "weight": 2,
           "name": "minecraft:diamond_chestplate",
           "functions": [
             {
@@ -116,13 +116,13 @@
                 "min": 20,
                 "max": 30
               },
-              "options": "#minecraft:on_random_loot"
+              "treasure": true
             }
           ]
         },
         {
           "type": "minecraft:item",
-          "weight": 10,
+          "weight": 1,
           "name": "minecraft:diamond_sword",
           "functions": [
             {
@@ -132,18 +132,18 @@
                 "min": 20,
                 "max": 30
               },
-              "options": "#minecraft:on_random_loot"
+              "treasure": true
             }
           ]
         },
         {
           "type": "minecraft:item",
-          "weight": 4,
+          "weight": 10,
           "name": "minecraft:totem_of_undying"
         },
         {
           "type": "minecraft:item",
-          "weight": 6,
+          "weight": 15,
           "name": "minecraft:book",
           "functions": [
             {
@@ -153,7 +153,7 @@
                 "min": 25,
                 "max": 30
               },
-              "options": "#minecraft:on_random_loot"
+              "treasure": true
             }
           ]
         }
@@ -169,22 +169,22 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 8,
+          "weight": 12,
           "name": "minecraft:music_disc_cat"
         },
         {
           "type": "minecraft:item",
-          "weight": 6,
+          "weight": 9,
           "name": "minecraft:music_disc_13"
         },
         {
           "type": "minecraft:item",
-          "weight": 4,
+          "weight": 6,
           "name": "minecraft:name_tag"
         },
         {
           "type": "minecraft:item",
-          "weight": 3,
+          "weight": 2,
           "name": "minecraft:diamond_horse_armor"
         }
       ]
