@@ -1,15 +1,19 @@
 {
-    "name": "mtr:badlands_temple/start_pool",
-    "fallback": "minecraft:empty",
-    "elements": [
-        {
-            "weight": 1,
-            "element": {
-                "location": "mtr:badlands_temple/badlands_temple_main",
-                "processors": "minecraft:empty",
-                "projection": "rigid",
-                "element_type": "minecraft:single_pool_element"
-            }
-        }
-    ]
+  "name": "mtr:badlands_temple/start_pool",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "mtr:1_20_5/badlands_temple/badlands_temple_main",
+        "locations": {
+          "1.20-1.20.4": "mtr:1_20_0/badlands_temple/badlands_temple_main",
+          "1.20.5-1.20.6": "mtr:1_20_5/badlands_temple/badlands_temple_main"
+        },
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "moogs_structures:versioned_single_pool_element"
+      }
+    }
+  ]
 }
