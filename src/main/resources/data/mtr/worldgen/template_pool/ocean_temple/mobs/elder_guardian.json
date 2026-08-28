@@ -1,0 +1,19 @@
+{
+  "name": "mtr:ocean_temple/mobs/elder_guardian",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "mtr:1_20_5/ocean_temple/mobs/elder_guardian",
+        "locations": {
+          "1.20-1.20.4": "mtr:1_20_0/ocean_temple/mobs/elder_guardian",
+          "1.20.5-1.20.6": "mtr:1_20_5/ocean_temple/mobs/elder_guardian"
+        },
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "moogs_structures:versioned_single_pool_element"
+      }
+    }
+  ]
+}

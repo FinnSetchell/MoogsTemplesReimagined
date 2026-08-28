@@ -1,15 +1,19 @@
 {
-    "name": "mtr:ocean_temple_start_pool",
-    "fallback": "minecraft:empty",
-    "elements": [
-        {
-            "weight": 1,
-            "element": {
-                "location": "mtr:ocean_temple",
-                "processors": "minecraft:empty",
-                "projection": "rigid",
-                "element_type": "minecraft:single_pool_element"
-            }
-        }
-    ]
+  "name": "mtr:ocean_temple_start_pool",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "mtr:1_20_5/ocean_temple",
+        "locations": {
+          "1.20-1.20.4": "mtr:1_20_0/ocean_temple",
+          "1.20.5-1.20.6": "mtr:1_20_5/ocean_temple"
+        },
+        "processors": "mtr:ocean_temple",
+        "projection": "rigid",
+        "element_type": "moogs_structures:versioned_single_pool_element"
+      }
+    }
+  ]
 }
