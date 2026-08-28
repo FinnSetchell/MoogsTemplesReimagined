@@ -1,27 +1,123 @@
 {
-    "processors": [
+  "processors": [
+    {
+      "processor_type": "moogs_structures:vanilla_loot_swap_processor",
+      "modid": "mtr",
+      "vanilla_key": "desert_pyramid",
+      "seed_strategy": "randomize",
+      "loot_table_mapping": {
+        "mtr:desert_temple_wall_chest": "minecraft:chests/desert_pyramid"
+      }
+    },
+    {
+      "processor_type": "moogs_structures:pillar_processor",
+      "pillar_length": 24,
+      "pillar_trigger_and_replacements": [
         {
-            "processor_type": "moogs_structures:vanilla_loot_swap_processor",
-            "modid": "mtr",
-            "vanilla_key": "desert_pyramid",
-            "seed_strategy": "randomize",
-            "loot_table_mapping": {
-                "mtr:desert_temple_wall_chest": "minecraft:chests/desert_pyramid"
-            }
-        },
-        {
-            "processor_type": "moogs_structures:pillar_processor",
-            "pillar_length": 24,
-            "pillar_trigger_and_replacements": [
-                {
-                    "trigger": {
-                        "Name": "minecraft:lime_stained_glass"
-                    },
-                    "replacement": {
-                        "Name": "minecraft:sandstone"
-                    }
-                }
-            ]
+          "trigger": {
+            "Name": "minecraft:lime_stained_glass"
+          },
+          "replacement": {
+            "Name": "minecraft:sandstone"
+          }
         }
-    ]
+      ]
+    },
+    {
+      "processor_type": "moogs_structures:spawner_randomizing_processor",
+      "weighted_entities": [
+        {
+          "entity": "minecraft:husk",
+          "weight": 1,
+          "nbt": {
+            "CustomName": "{\"text\": \"Desert Temple Guardian\", \"italic\": false}",
+            "PersistenceRequired": 1,
+            "CanPickUpLoot": 0,
+            "attributes": [
+              {
+                "Name": "minecraft:generic.max_health",
+                "Base": 35.0
+              },
+              {
+                "Name": "minecraft:generic.attack_damage",
+                "Base": 3.0
+              },
+              {
+                "Name": "minecraft:generic.movement_speed",
+                "Base": 0.23
+              },
+              {
+                "Name": "minecraft:generic.armor",
+                "Base": 2.0
+              }
+            ],
+            "ArmorItems": [
+              {},
+              {},
+              {
+                "id": "minecraft:golden_chestplate",
+                "count": 1,
+                "components": {
+                  "minecraft:enchantments": {
+                    "levels": {
+                      "minecraft:thorns": 1,
+                      "minecraft:protection": 3
+                    }
+                  }
+                }
+              },
+              {
+                "id": "minecraft:golden_helmet",
+                "count": 1,
+                "components": {
+                  "minecraft:enchantments": {
+                    "levels": {
+                      "minecraft:power": 4,
+                      "minecraft:thorns": 1,
+                      "minecraft:protection": 3
+                    }
+                  },
+                  "minecraft:trim": {
+                    "material": "minecraft:gold",
+                    "pattern": "minecraft:dune"
+                  }
+                }
+              }
+            ],
+            "HandItems": [
+              {
+                "id": "minecraft:golden_sword",
+                "count": 1,
+                "components": {
+                  "minecraft:enchantments": {
+                    "levels": {
+                      "minecraft:sharpness": 4,
+                      "minecraft:fire_aspect": 1
+                    }
+                  }
+                }
+              },
+              {}
+            ],
+            "ArmorDropChances": [
+              0.001,
+              0.001,
+              0.001,
+              0.001
+            ],
+            "HandDropChances": [
+              0.001,
+              0.001
+            ]
+          }
+        }
+      ],
+      "min_spawn_delay": 200,
+      "max_spawn_delay": 800,
+      "spawn_count": 4,
+      "spawn_range": 4,
+      "max_nearby_entities": 6,
+      "required_player_range": 16
+    }
+  ]
 }

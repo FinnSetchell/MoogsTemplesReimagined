@@ -1,0 +1,19 @@
+{
+  "name": "mtr:desert-mega-temple/side_pool/stairs",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "mtr:1_20_5/desert-mega-temple/desert-mega-temple-stairs",
+        "locations": {
+          "1.20-1.20.4": "mtr:1_20_0/desert-mega-temple/desert-mega-temple-stairs",
+          "1.20.5-1.20.6": "mtr:1_20_5/desert-mega-temple/desert-mega-temple-stairs"
+        },
+        "processors": "mtr:desert_temple_replace_loot",
+        "projection": "rigid",
+        "element_type": "moogs_structures:versioned_single_pool_element"
+      }
+    }
+  ]
+}
