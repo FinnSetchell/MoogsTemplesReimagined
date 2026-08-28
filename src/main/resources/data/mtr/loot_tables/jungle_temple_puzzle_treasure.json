@@ -87,7 +87,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 12,
+          "weight": 2,
           "name": "minecraft:diamond_helmet",
           "functions": [
             {
@@ -97,13 +97,13 @@
                 "min": 20,
                 "max": 30
               },
-              "options": "#minecraft:on_random_loot"
+              "treasure": true
             }
           ]
         },
         {
           "type": "minecraft:item",
-          "weight": 12,
+          "weight": 2,
           "name": "minecraft:diamond_chestplate",
           "functions": [
             {
@@ -113,13 +113,13 @@
                 "min": 20,
                 "max": 30
               },
-              "options": "#minecraft:on_random_loot"
+              "treasure": true
             }
           ]
         },
         {
           "type": "minecraft:item",
-          "weight": 12,
+          "weight": 2,
           "name": "minecraft:diamond_leggings",
           "functions": [
             {
@@ -129,13 +129,13 @@
                 "min": 20,
                 "max": 30
               },
-              "options": "#minecraft:on_random_loot"
+              "treasure": true
             }
           ]
         },
         {
           "type": "minecraft:item",
-          "weight": 12,
+          "weight": 2,
           "name": "minecraft:diamond_boots",
           "functions": [
             {
@@ -145,13 +145,13 @@
                 "min": 20,
                 "max": 30
               },
-              "options": "#minecraft:on_random_loot"
+              "treasure": true
             }
           ]
         },
         {
           "type": "minecraft:item",
-          "weight": 10,
+          "weight": 1,
           "name": "minecraft:diamond_sword",
           "functions": [
             {
@@ -161,7 +161,7 @@
                 "min": 20,
                 "max": 30
               },
-              "options": "#minecraft:on_random_loot"
+              "treasure": true
             }
           ]
         },
@@ -177,7 +177,7 @@
                 "min": 20,
                 "max": 30
               },
-              "options": "#minecraft:on_random_loot"
+              "treasure": true
             }
           ]
         },
@@ -193,7 +193,7 @@
                 "min": 20,
                 "max": 30
               },
-              "options": "#minecraft:on_random_loot"
+              "treasure": true
             }
           ]
         }
@@ -217,7 +217,7 @@
                 "min": 25,
                 "max": 30
               },
-              "options": "#minecraft:on_random_loot"
+              "treasure": true
             }
           ]
         },
@@ -230,22 +230,6 @@
           "type": "minecraft:item",
           "weight": 6,
           "name": "minecraft:diamond_horse_armor"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 5,
-          "name": "minecraft:trident",
-          "functions": [
-            {
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "type": "minecraft:uniform",
-                "min": 15,
-                "max": 25
-              },
-              "options": "#minecraft:on_random_loot"
-            }
-          ]
         },
         {
           "type": "minecraft:item",

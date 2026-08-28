@@ -1,14 +1,14 @@
 {
-  "name": "jungle_temple_side_pool_4",
+  "name": "mtr:jungle_temple/side_pool_stairs",
   "fallback": "minecraft:empty",
   "elements": [
     {
       "weight": 1,
       "element": {
-        "location": "mtr:1_20_5/jungle_temple/jungle_temple_4",
+        "location": "mtr:1_20_5/jungle_temple/stairs",
         "locations": {
-          "1.20-1.20.4": "mtr:1_20_0/jungle_temple/jungle_temple_4",
-          "1.20.5-1.20.6": "mtr:1_20_5/jungle_temple/jungle_temple_4"
+          "1.20-1.20.4": "mtr:1_20_0/jungle_temple/stairs",
+          "1.20.5-1.20.6": "mtr:1_20_5/jungle_temple/stairs"
         },
         "processors": "mtr:jungle_temple_replace_loot",
         "projection": "rigid",

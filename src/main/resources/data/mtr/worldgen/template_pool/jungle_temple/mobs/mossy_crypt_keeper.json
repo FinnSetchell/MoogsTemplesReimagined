@@ -1,0 +1,20 @@
+{
+  "name": "mtr:jungle_temple/mobs/mossy_crypt_keeper",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "mtr:1_20_5/jungle_temple/mobs/mossy_crypt_keeper",
+        "locations": {
+          "1.20-1.20.1": "mtr:1_20_0/jungle_temple/mobs/mossy_crypt_keeper",
+          "1.20.2-1.20.4": "mtr:1_20_2/jungle_temple/mobs/mossy_crypt_keeper",
+          "1.20.5-1.20.6": "mtr:1_20_5/jungle_temple/mobs/mossy_crypt_keeper"
+        },
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "moogs_structures:versioned_single_pool_element"
+      }
+    }
+  ]
+}
