@@ -1,339 +1,475 @@
 {
-    "name": "mtr:stronghold_side_pool",
-    "fallback": "minecraft:empty",
-    "elements": [
-        {
-            "weight": 16,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "location": "mtr:stronghold/stronghold_bunks",
-                "processors": "mtr:stronghold_replace_loot"
-            }
+  "name": "mtr:stronghold_side_pool",
+  "fallback": "mtr:stronghold_end_pool",
+  "elements": [
+    {
+      "weight": 16,
+      "element": {
+        "location": "mtr:1_20_5/stronghold/stronghold_bunks",
+        "locations": {
+          "1.20-1.20.4": "mtr:1_20_0/stronghold/stronghold_bunks",
+          "1.20.5-1.20.6": "mtr:1_20_5/stronghold/stronghold_bunks"
         },
-        {
-            "weight": 12,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "location": "mtr:stronghold/stronghold_library",
-                "processors": "mtr:stronghold_replace_loot"
-            }
+        "processors": "mtr:stronghold_replace_loot",
+        "projection": "rigid",
+        "element_type": "moogs_structures:versioned_single_pool_element"
+      }
+    },
+    {
+      "weight": 12,
+      "element": {
+        "location": "mtr:1_20_5/stronghold/stronghold_library",
+        "locations": {
+          "1.20-1.20.4": "mtr:1_20_0/stronghold/stronghold_library",
+          "1.20.5-1.20.6": "mtr:1_20_5/stronghold/stronghold_library"
         },
-        {
-            "weight": 22,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "location": "mtr:stronghold/stronghold_crossing_1",
-                "processors": "mtr:stronghold_replace_loot"
-            }
+        "processors": "mtr:stronghold_replace_loot",
+        "projection": "rigid",
+        "element_type": "moogs_structures:versioned_single_pool_element"
+      }
+    },
+    {
+      "weight": 22,
+      "element": {
+        "location": "mtr:1_20_5/stronghold/stronghold_crossing_1",
+        "locations": {
+          "1.20-1.20.4": "mtr:1_20_0/stronghold/stronghold_crossing_1",
+          "1.20.5-1.20.6": "mtr:1_20_5/stronghold/stronghold_crossing_1"
         },
-        {
-            "weight": 22,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "location": "mtr:stronghold/stronghold_crossing_2",
-                "processors": "mtr:stronghold_replace_loot"
-            }
+        "processors": "mtr:stronghold_replace_loot",
+        "projection": "rigid",
+        "element_type": "moogs_structures:versioned_single_pool_element"
+      }
+    },
+    {
+      "weight": 22,
+      "element": {
+        "location": "mtr:1_20_5/stronghold/stronghold_crossing_2",
+        "locations": {
+          "1.20-1.20.4": "mtr:1_20_0/stronghold/stronghold_crossing_2",
+          "1.20.5-1.20.6": "mtr:1_20_5/stronghold/stronghold_crossing_2"
         },
-        {
-            "weight": 22,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "location": "mtr:stronghold/stronghold_crossing_3",
-                "processors": "mtr:stronghold_replace_loot"
-            }
+        "processors": "mtr:stronghold_replace_loot",
+        "projection": "rigid",
+        "element_type": "moogs_structures:versioned_single_pool_element"
+      }
+    },
+    {
+      "weight": 22,
+      "element": {
+        "location": "mtr:1_20_5/stronghold/stronghold_crossing_3",
+        "locations": {
+          "1.20-1.20.4": "mtr:1_20_0/stronghold/stronghold_crossing_3",
+          "1.20.5-1.20.6": "mtr:1_20_5/stronghold/stronghold_crossing_3"
         },
-        {
-            "weight": 22,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "location": "mtr:stronghold/stronghold_crossing_4",
-                "processors": "mtr:stronghold_replace_loot"
-            }
+        "processors": "mtr:stronghold_replace_loot",
+        "projection": "rigid",
+        "element_type": "moogs_structures:versioned_single_pool_element"
+      }
+    },
+    {
+      "weight": 22,
+      "element": {
+        "location": "mtr:1_20_5/stronghold/stronghold_crossing_4",
+        "locations": {
+          "1.20-1.20.4": "mtr:1_20_0/stronghold/stronghold_crossing_4",
+          "1.20.5-1.20.6": "mtr:1_20_5/stronghold/stronghold_crossing_4"
         },
-        {
-            "weight": 9,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "location": "mtr:stronghold/stronghold_long_straight_1",
-                "processors": "mtr:stronghold_replace_loot"
-            }
+        "processors": "mtr:stronghold_replace_loot",
+        "projection": "rigid",
+        "element_type": "moogs_structures:versioned_single_pool_element"
+      }
+    },
+    {
+      "weight": 9,
+      "element": {
+        "location": "mtr:1_20_5/stronghold/stronghold_long_straight_1",
+        "locations": {
+          "1.20-1.20.4": "mtr:1_20_0/stronghold/stronghold_long_straight_1",
+          "1.20.5-1.20.6": "mtr:1_20_5/stronghold/stronghold_long_straight_1"
         },
-        {
-            "weight": 9,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "location": "mtr:stronghold/stronghold_long_straight_2",
-                "processors": "mtr:stronghold_replace_loot"
-            }
+        "processors": "mtr:stronghold_replace_loot",
+        "projection": "rigid",
+        "element_type": "moogs_structures:versioned_single_pool_element"
+      }
+    },
+    {
+      "weight": 9,
+      "element": {
+        "location": "mtr:1_20_5/stronghold/stronghold_long_straight_2",
+        "locations": {
+          "1.20-1.20.4": "mtr:1_20_0/stronghold/stronghold_long_straight_2",
+          "1.20.5-1.20.6": "mtr:1_20_5/stronghold/stronghold_long_straight_2"
         },
-        {
-            "weight": 9,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "location": "mtr:stronghold/stronghold_long_straight_3",
-                "processors": "mtr:stronghold_replace_loot"
-            }
+        "processors": "mtr:stronghold_replace_loot",
+        "projection": "rigid",
+        "element_type": "moogs_structures:versioned_single_pool_element"
+      }
+    },
+    {
+      "weight": 9,
+      "element": {
+        "location": "mtr:1_20_5/stronghold/stronghold_long_straight_3",
+        "locations": {
+          "1.20-1.20.4": "mtr:1_20_0/stronghold/stronghold_long_straight_3",
+          "1.20.5-1.20.6": "mtr:1_20_5/stronghold/stronghold_long_straight_3"
         },
-        {
-            "weight": 9,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "location": "mtr:stronghold/stronghold_long_straight_4",
-                "processors": "mtr:stronghold_replace_loot"
-            }
+        "processors": "mtr:stronghold_replace_loot",
+        "projection": "rigid",
+        "element_type": "moogs_structures:versioned_single_pool_element"
+      }
+    },
+    {
+      "weight": 6,
+      "element": {
+        "location": "mtr:1_20_5/stronghold/stronghold_short_straight_1",
+        "locations": {
+          "1.20-1.20.4": "mtr:1_20_0/stronghold/stronghold_short_straight_1",
+          "1.20.5-1.20.6": "mtr:1_20_5/stronghold/stronghold_short_straight_1"
         },
-        {
-            "weight": 9,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "location": "mtr:stronghold/stronghold_long_straight_12",
-                "processors": "mtr:stronghold_replace_loot"
-            }
+        "processors": "mtr:stronghold_replace_loot",
+        "projection": "rigid",
+        "element_type": "moogs_structures:versioned_single_pool_element"
+      }
+    },
+    {
+      "weight": 6,
+      "element": {
+        "location": "mtr:1_20_5/stronghold/stronghold_short_straight_2",
+        "locations": {
+          "1.20-1.20.4": "mtr:1_20_0/stronghold/stronghold_short_straight_2",
+          "1.20.5-1.20.6": "mtr:1_20_5/stronghold/stronghold_short_straight_2"
         },
-        {
-            "weight": 6,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "location": "mtr:stronghold/stronghold_short_straight_1",
-                "processors": "mtr:stronghold_replace_loot"
-            }
+        "processors": "mtr:stronghold_replace_loot",
+        "projection": "rigid",
+        "element_type": "moogs_structures:versioned_single_pool_element"
+      }
+    },
+    {
+      "weight": 6,
+      "element": {
+        "location": "mtr:1_20_5/stronghold/stronghold_short_straight_3",
+        "locations": {
+          "1.20-1.20.4": "mtr:1_20_0/stronghold/stronghold_short_straight_3",
+          "1.20.5-1.20.6": "mtr:1_20_5/stronghold/stronghold_short_straight_3"
         },
-        {
-            "weight": 6,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "location": "mtr:stronghold/stronghold_short_straight_2",
-                "processors": "mtr:stronghold_replace_loot"
-            }
+        "processors": "mtr:stronghold_replace_loot",
+        "projection": "rigid",
+        "element_type": "moogs_structures:versioned_single_pool_element"
+      }
+    },
+    {
+      "weight": 6,
+      "element": {
+        "location": "mtr:1_20_5/stronghold/stronghold_short_straight_4",
+        "locations": {
+          "1.20-1.20.4": "mtr:1_20_0/stronghold/stronghold_short_straight_4",
+          "1.20.5-1.20.6": "mtr:1_20_5/stronghold/stronghold_short_straight_4"
         },
-        {
-            "weight": 6,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "location": "mtr:stronghold/stronghold_short_straight_3",
-                "processors": "mtr:stronghold_replace_loot"
-            }
+        "processors": "mtr:stronghold_replace_loot",
+        "projection": "rigid",
+        "element_type": "moogs_structures:versioned_single_pool_element"
+      }
+    },
+    {
+      "weight": 6,
+      "element": {
+        "location": "mtr:1_20_5/stronghold/stronghold_short_straight_5",
+        "locations": {
+          "1.20-1.20.4": "mtr:1_20_0/stronghold/stronghold_short_straight_5",
+          "1.20.5-1.20.6": "mtr:1_20_5/stronghold/stronghold_short_straight_5"
         },
-        {
-            "weight": 6,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "location": "mtr:stronghold/stronghold_short_straight_4",
-                "processors": "mtr:stronghold_replace_loot"
-            }
+        "processors": "mtr:stronghold_replace_loot",
+        "projection": "rigid",
+        "element_type": "moogs_structures:versioned_single_pool_element"
+      }
+    },
+    {
+      "weight": 6,
+      "element": {
+        "location": "mtr:1_20_5/stronghold/stronghold_short_straight_6",
+        "locations": {
+          "1.20-1.20.4": "mtr:1_20_0/stronghold/stronghold_short_straight_6",
+          "1.20.5-1.20.6": "mtr:1_20_5/stronghold/stronghold_short_straight_6"
         },
-        {
-            "weight": 6,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "location": "mtr:stronghold/stronghold_short_straight_5",
-                "processors": "mtr:stronghold_replace_loot"
-            }
+        "processors": "mtr:stronghold_replace_loot",
+        "projection": "rigid",
+        "element_type": "moogs_structures:versioned_single_pool_element"
+      }
+    },
+    {
+      "weight": 6,
+      "element": {
+        "location": "mtr:1_20_5/stronghold/stronghold_short_straight_7",
+        "locations": {
+          "1.20-1.20.4": "mtr:1_20_0/stronghold/stronghold_short_straight_7",
+          "1.20.5-1.20.6": "mtr:1_20_5/stronghold/stronghold_short_straight_7"
         },
-        {
-            "weight": 6,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "location": "mtr:stronghold/stronghold_short_straight_6",
-                "processors": "mtr:stronghold_replace_loot"
-            }
+        "processors": "mtr:stronghold_replace_loot",
+        "projection": "rigid",
+        "element_type": "moogs_structures:versioned_single_pool_element"
+      }
+    },
+    {
+      "weight": 6,
+      "element": {
+        "location": "mtr:1_20_5/stronghold/stronghold_short_straight_8",
+        "locations": {
+          "1.20-1.20.4": "mtr:1_20_0/stronghold/stronghold_short_straight_8",
+          "1.20.5-1.20.6": "mtr:1_20_5/stronghold/stronghold_short_straight_8"
         },
-        {
-            "weight": 6,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "location": "mtr:stronghold/stronghold_short_straight_7",
-                "processors": "mtr:stronghold_replace_loot"
-            }
+        "processors": "mtr:stronghold_replace_loot",
+        "projection": "rigid",
+        "element_type": "moogs_structures:versioned_single_pool_element"
+      }
+    },
+    {
+      "weight": 6,
+      "element": {
+        "location": "mtr:1_20_5/stronghold/stronghold_short_straight_9",
+        "locations": {
+          "1.20-1.20.4": "mtr:1_20_0/stronghold/stronghold_short_straight_9",
+          "1.20.5-1.20.6": "mtr:1_20_5/stronghold/stronghold_short_straight_9"
         },
-        {
-            "weight": 6,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "location": "mtr:stronghold/stronghold_short_straight_8",
-                "processors": "mtr:stronghold_replace_loot"
-            }
+        "processors": "mtr:stronghold_replace_loot",
+        "projection": "rigid",
+        "element_type": "moogs_structures:versioned_single_pool_element"
+      }
+    },
+    {
+      "weight": 6,
+      "element": {
+        "location": "mtr:1_20_5/stronghold/stronghold_short_straight_10",
+        "locations": {
+          "1.20-1.20.4": "mtr:1_20_0/stronghold/stronghold_short_straight_10",
+          "1.20.5-1.20.6": "mtr:1_20_5/stronghold/stronghold_short_straight_10"
         },
-        {
-            "weight": 6,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "location": "mtr:stronghold/stronghold_short_straight_9",
-                "processors": "mtr:stronghold_replace_loot"
-            }
+        "processors": "mtr:stronghold_replace_loot",
+        "projection": "rigid",
+        "element_type": "moogs_structures:versioned_single_pool_element"
+      }
+    },
+    {
+      "weight": 6,
+      "element": {
+        "location": "mtr:1_20_5/stronghold/stronghold_short_straight_11",
+        "locations": {
+          "1.20-1.20.4": "mtr:1_20_0/stronghold/stronghold_short_straight_11",
+          "1.20.5-1.20.6": "mtr:1_20_5/stronghold/stronghold_short_straight_11"
         },
-        {
-            "weight": 6,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "location": "mtr:stronghold/stronghold_short_straight_10",
-                "processors": "mtr:stronghold_replace_loot"
-            }
+        "processors": "mtr:stronghold_replace_loot",
+        "projection": "rigid",
+        "element_type": "moogs_structures:versioned_single_pool_element"
+      }
+    },
+    {
+      "weight": 6,
+      "element": {
+        "location": "mtr:1_20_5/stronghold/stronghold_short_straight_12",
+        "locations": {
+          "1.20-1.20.4": "mtr:1_20_0/stronghold/stronghold_short_straight_12",
+          "1.20.5-1.20.6": "mtr:1_20_5/stronghold/stronghold_short_straight_12"
         },
-        {
-            "weight": 6,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "location": "mtr:stronghold/stronghold_short_straight_11",
-                "processors": "mtr:stronghold_replace_loot"
-            }
+        "processors": "mtr:stronghold_replace_loot",
+        "projection": "rigid",
+        "element_type": "moogs_structures:versioned_single_pool_element"
+      }
+    },
+    {
+      "weight": 16,
+      "element": {
+        "location": "mtr:1_20_5/stronghold/stronghold_staircase_1",
+        "locations": {
+          "1.20-1.20.4": "mtr:1_20_0/stronghold/stronghold_staircase_1",
+          "1.20.5-1.20.6": "mtr:1_20_5/stronghold/stronghold_staircase_1"
         },
-        {
-            "weight": 6,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "location": "mtr:stronghold/stronghold_short_straight_12",
-                "processors": "mtr:stronghold_replace_loot"
-            }
+        "processors": "mtr:stronghold_replace_loot",
+        "projection": "rigid",
+        "element_type": "moogs_structures:versioned_single_pool_element"
+      }
+    },
+    {
+      "weight": 16,
+      "element": {
+        "location": "mtr:1_20_5/stronghold/stronghold_staircase_2",
+        "locations": {
+          "1.20-1.20.4": "mtr:1_20_0/stronghold/stronghold_staircase_2",
+          "1.20.5-1.20.6": "mtr:1_20_5/stronghold/stronghold_staircase_2"
         },
-        {
-            "weight": 16,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "location": "mtr:stronghold/stronghold_staircase_1",
-                "processors": "mtr:stronghold_replace_loot"
-            }
+        "processors": "mtr:stronghold_replace_loot",
+        "projection": "rigid",
+        "element_type": "moogs_structures:versioned_single_pool_element"
+      }
+    },
+    {
+      "weight": 16,
+      "element": {
+        "location": "mtr:1_20_5/stronghold/stronghold_staircase_3",
+        "locations": {
+          "1.20-1.20.4": "mtr:1_20_0/stronghold/stronghold_staircase_3",
+          "1.20.5-1.20.6": "mtr:1_20_5/stronghold/stronghold_staircase_3"
         },
-        {
-            "weight": 16,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "location": "mtr:stronghold/stronghold_staircase_2",
-                "processors": "mtr:stronghold_replace_loot"
-            }
+        "processors": "mtr:stronghold_replace_loot",
+        "projection": "rigid",
+        "element_type": "moogs_structures:versioned_single_pool_element"
+      }
+    },
+    {
+      "weight": 16,
+      "element": {
+        "location": "mtr:1_20_5/stronghold/stronghold_round_staircase_1",
+        "locations": {
+          "1.20-1.20.4": "mtr:1_20_0/stronghold/stronghold_round_staircase_1",
+          "1.20.5-1.20.6": "mtr:1_20_5/stronghold/stronghold_round_staircase_1"
         },
-        {
-            "weight": 16,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "location": "mtr:stronghold/stronghold_staircase_3",
-                "processors": "mtr:stronghold_replace_loot"
-            }
+        "processors": "mtr:stronghold_replace_loot",
+        "projection": "rigid",
+        "element_type": "moogs_structures:versioned_single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "mtr:1_20_5/stronghold/stronghold_corner_1",
+        "locations": {
+          "1.20-1.20.4": "mtr:1_20_0/stronghold/stronghold_corner_1",
+          "1.20.5-1.20.6": "mtr:1_20_5/stronghold/stronghold_corner_1"
         },
-        {
-            "weight": 16,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "location": "mtr:stronghold/stronghold_round_staircase_1",
-                "processors": "mtr:stronghold_replace_loot"
-            }
+        "processors": "mtr:stronghold_replace_loot",
+        "projection": "rigid",
+        "element_type": "moogs_structures:versioned_single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "mtr:1_20_5/stronghold/stronghold_corner_2",
+        "locations": {
+          "1.20-1.20.4": "mtr:1_20_0/stronghold/stronghold_corner_2",
+          "1.20.5-1.20.6": "mtr:1_20_5/stronghold/stronghold_corner_2"
         },
-        {
-            "weight": 10,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "location": "mtr:stronghold/stronghold_corner_1",
-                "processors": "mtr:stronghold_replace_loot"
-            }
+        "processors": "mtr:stronghold_replace_loot",
+        "projection": "rigid",
+        "element_type": "moogs_structures:versioned_single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "mtr:1_20_5/stronghold/stronghold_corner_3",
+        "locations": {
+          "1.20-1.20.4": "mtr:1_20_0/stronghold/stronghold_corner_3",
+          "1.20.5-1.20.6": "mtr:1_20_5/stronghold/stronghold_corner_3"
         },
-        {
-            "weight": 10,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "location": "mtr:stronghold/stronghold_corner_2",
-                "processors": "mtr:stronghold_replace_loot"
-            }
+        "processors": "mtr:stronghold_replace_loot",
+        "projection": "rigid",
+        "element_type": "moogs_structures:versioned_single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "mtr:1_20_5/stronghold/stronghold_corner_4",
+        "locations": {
+          "1.20-1.20.4": "mtr:1_20_0/stronghold/stronghold_corner_4",
+          "1.20.5-1.20.6": "mtr:1_20_5/stronghold/stronghold_corner_4"
         },
-        {
-            "weight": 10,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "location": "mtr:stronghold/stronghold_corner_3",
-                "processors": "mtr:stronghold_replace_loot"
-            }
+        "processors": "mtr:stronghold_replace_loot",
+        "projection": "rigid",
+        "element_type": "moogs_structures:versioned_single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "mtr:1_20_5/stronghold/stronghold_corner_5",
+        "locations": {
+          "1.20-1.20.4": "mtr:1_20_0/stronghold/stronghold_corner_5",
+          "1.20.5-1.20.6": "mtr:1_20_5/stronghold/stronghold_corner_5"
         },
-        {
-            "weight": 10,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "location": "mtr:stronghold/stronghold_corner_4",
-                "processors": "mtr:stronghold_replace_loot"
-            }
+        "processors": "mtr:stronghold_replace_loot",
+        "projection": "rigid",
+        "element_type": "moogs_structures:versioned_single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "mtr:1_20_5/stronghold/stronghold_corner_6",
+        "locations": {
+          "1.20-1.20.4": "mtr:1_20_0/stronghold/stronghold_corner_6",
+          "1.20.5-1.20.6": "mtr:1_20_5/stronghold/stronghold_corner_6"
         },
-        {
-            "weight": 10,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "location": "mtr:stronghold/stronghold_corner_5",
-                "processors": "mtr:stronghold_replace_loot"
-            }
+        "processors": "mtr:stronghold_replace_loot",
+        "projection": "rigid",
+        "element_type": "moogs_structures:versioned_single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "mtr:1_20_5/stronghold/stronghold_corner_7",
+        "locations": {
+          "1.20-1.20.4": "mtr:1_20_0/stronghold/stronghold_corner_7",
+          "1.20.5-1.20.6": "mtr:1_20_5/stronghold/stronghold_corner_7"
         },
-        {
-            "weight": 10,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "location": "mtr:stronghold/stronghold_corner_6",
-                "processors": "mtr:stronghold_replace_loot"
-            }
+        "processors": "mtr:stronghold_replace_loot",
+        "projection": "rigid",
+        "element_type": "moogs_structures:versioned_single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "mtr:1_20_5/stronghold/stronghold_corner_8",
+        "locations": {
+          "1.20-1.20.4": "mtr:1_20_0/stronghold/stronghold_corner_8",
+          "1.20.5-1.20.6": "mtr:1_20_5/stronghold/stronghold_corner_8"
         },
-        {
-            "weight": 10,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "location": "mtr:stronghold/stronghold_corner_7",
-                "processors": "mtr:stronghold_replace_loot"
-            }
+        "processors": "mtr:stronghold_replace_loot",
+        "projection": "rigid",
+        "element_type": "moogs_structures:versioned_single_pool_element"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "location": "mtr:1_20_5/stronghold/stronghold_corner_9",
+        "locations": {
+          "1.20-1.20.4": "mtr:1_20_0/stronghold/stronghold_corner_9",
+          "1.20.5-1.20.6": "mtr:1_20_5/stronghold/stronghold_corner_9"
         },
-        {
-            "weight": 10,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "location": "mtr:stronghold/stronghold_corner_8",
-                "processors": "mtr:stronghold_replace_loot"
-            }
+        "processors": "mtr:stronghold_replace_loot",
+        "projection": "rigid",
+        "element_type": "moogs_structures:versioned_single_pool_element"
+      }
+    },
+    {
+      "weight": 9,
+      "element": {
+        "location": "mtr:1_20_5/stronghold/stronghold_straight_1",
+        "locations": {
+          "1.20-1.20.4": "mtr:1_20_0/stronghold/stronghold_straight_1",
+          "1.20.5-1.20.6": "mtr:1_20_5/stronghold/stronghold_straight_1"
         },
-        {
-            "weight": 10,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "location": "mtr:stronghold/stronghold_corner_9",
-                "processors": "mtr:stronghold_replace_loot"
-            }
+        "processors": "mtr:stronghold_replace_loot",
+        "projection": "rigid",
+        "element_type": "moogs_structures:versioned_single_pool_element"
+      }
+    },
+    {
+      "weight": 12,
+      "element": {
+        "location": "mtr:1_20_5/stronghold/stronghold_large_room_with_table",
+        "locations": {
+          "1.20-1.20.2": "mtr:1_20_0/stronghold/stronghold_large_room_with_table",
+          "1.20.3-1.20.4": "mtr:1_20_3/stronghold/stronghold_large_room_with_table",
+          "1.20.5-1.20.6": "mtr:1_20_5/stronghold/stronghold_large_room_with_table"
         },
-        {
-            "weight": 9,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "location": "mtr:stronghold/stronghold_straight_1",
-                "processors": "mtr:stronghold_replace_loot"
-            }
-        }
-    ]
+        "processors": "mtr:stronghold_replace_loot",
+        "projection": "rigid",
+        "element_type": "moogs_structures:versioned_single_pool_element"
+      }
+    }
+  ]
 }
