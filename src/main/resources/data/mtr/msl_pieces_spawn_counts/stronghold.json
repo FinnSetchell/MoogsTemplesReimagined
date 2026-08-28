@@ -67,6 +67,14 @@
       "never_spawn_more_than_this_many": 1
     },
     {
+      "nbt_piece_name": "mtr:1_21_2/stronghold/stronghold_large_room_with_table",
+      "never_spawn_more_than_this_many": 1
+    },
+    {
+      "nbt_piece_name": "mtr:1_21_5/stronghold/stronghold_large_room_with_table",
+      "never_spawn_more_than_this_many": 1
+    },
+    {
       "nbt_piece_name": "mtr:1_21_9/stronghold/stronghold_large_room_with_table",
       "never_spawn_more_than_this_many": 1
     }

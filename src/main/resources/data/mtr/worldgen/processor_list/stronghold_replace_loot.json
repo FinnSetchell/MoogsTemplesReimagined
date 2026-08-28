@@ -6,7 +6,7 @@
       "vanilla_key": "stronghold",
       "seed_strategy": "randomize",
       "loot_table_mapping": {
-        "mtr:stronghold_corridor_chest": "minecraft:chests/stronghold_corridor"
+        "mtr:stronghold_corridor_common": "minecraft:chests/stronghold_corridor"
       }
     },
     {
