@@ -5,57 +5,49 @@
     {
       "weight": 1,
       "element": {
-        "element_type": "moogs_structures:versioned_single_pool_element",
-        "location": "mtr:desert-mega-temple/desert-mega-temple-lower-1",
+        "location": "mtr:1_21_0/desert-mega-temple/desert-mega-temple-lower-1",
         "locations": {
-          "1.21-1.21.4": "mtr:desert-mega-temple/desert-mega-temple-lower-1",
-          "1.21.5-1.21.11": "mtr:desert-mega-temple/1_21_5/desert-mega-temple-lower-1",
-          "26.1-26.2": "mtr:desert-mega-temple/1_21_5/desert-mega-temple-lower-1"
+          "1.21-26.2": "mtr:1_21_0/desert-mega-temple/desert-mega-temple-lower-1"
         },
         "processors": "mtr:desert_temple_replace_loot",
-        "projection": "rigid"
+        "projection": "rigid",
+        "element_type": "moogs_structures:versioned_single_pool_element"
       }
     },
     {
       "weight": 1,
       "element": {
-        "element_type": "moogs_structures:versioned_single_pool_element",
-        "location": "mtr:desert-mega-temple/desert-mega-temple-lower-2",
+        "location": "mtr:1_21_0/desert-mega-temple/desert-mega-temple-lower-2",
         "locations": {
-          "1.21-1.21.4": "mtr:desert-mega-temple/desert-mega-temple-lower-2",
-          "1.21.5-1.21.11": "mtr:desert-mega-temple/1_21_5/desert-mega-temple-lower-2",
-          "26.1-26.2": "mtr:desert-mega-temple/1_21_5/desert-mega-temple-lower-2"
+          "1.21-26.2": "mtr:1_21_0/desert-mega-temple/desert-mega-temple-lower-2"
         },
         "processors": "mtr:desert_temple_replace_loot",
-        "projection": "rigid"
+        "projection": "rigid",
+        "element_type": "moogs_structures:versioned_single_pool_element"
       }
     },
     {
       "weight": 1,
       "element": {
-        "element_type": "moogs_structures:versioned_single_pool_element",
-        "location": "mtr:desert-mega-temple/desert-mega-temple-lower-3",
+        "location": "mtr:1_21_0/desert-mega-temple/desert-mega-temple-lower-3",
         "locations": {
-          "1.21-1.21.4": "mtr:desert-mega-temple/desert-mega-temple-lower-3",
-          "1.21.5-1.21.11": "mtr:desert-mega-temple/1_21_5/desert-mega-temple-lower-3",
-          "26.1-26.2": "mtr:desert-mega-temple/1_21_5/desert-mega-temple-lower-3"
+          "1.21-26.2": "mtr:1_21_0/desert-mega-temple/desert-mega-temple-lower-3"
         },
         "processors": "mtr:desert_temple_replace_loot",
-        "projection": "rigid"
+        "projection": "rigid",
+        "element_type": "moogs_structures:versioned_single_pool_element"
       }
     },
     {
       "weight": 1,
       "element": {
-        "element_type": "moogs_structures:versioned_single_pool_element",
-        "location": "mtr:desert-mega-temple/desert-mega-temple-lower-4",
+        "location": "mtr:1_21_0/desert-mega-temple/desert-mega-temple-lower-4",
         "locations": {
-          "1.21-1.21.4": "mtr:desert-mega-temple/desert-mega-temple-lower-4",
-          "1.21.5-1.21.11": "mtr:desert-mega-temple/1_21_5/desert-mega-temple-lower-4",
-          "26.1-26.2": "mtr:desert-mega-temple/1_21_5/desert-mega-temple-lower-4"
+          "1.21-26.2": "mtr:1_21_0/desert-mega-temple/desert-mega-temple-lower-4"
         },
         "processors": "mtr:desert_temple_replace_loot",
-        "projection": "rigid"
+        "projection": "rigid",
+        "element_type": "moogs_structures:versioned_single_pool_element"
       }
     }
   ]

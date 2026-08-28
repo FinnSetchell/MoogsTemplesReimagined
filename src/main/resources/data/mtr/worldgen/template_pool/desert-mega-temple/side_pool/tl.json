@@ -5,16 +5,14 @@
     {
       "weight": 1,
       "element": {
-        "element_type": "moogs_structures:versioned_single_pool_element",
-        "projection": "rigid",
-        "location": "mtr:desert-mega-temple/desert-mega-temple-tl",
+        "location": "mtr:1_21_9/desert-mega-temple/desert-mega-temple-tl",
         "locations": {
-          "1.21-1.21.4": "mtr:desert-mega-temple/desert-mega-temple-tl",
-          "1.21.5-1.21.8": "mtr:desert-mega-temple/1_21_5/desert-mega-temple-tl",
-          "1.21.9-1.21.11": "mtr:desert-mega-temple/v1_21_9/desert-mega-temple-tl",
-          "26.1-26.2": "mtr:desert-mega-temple/v1_21_9/desert-mega-temple-tl"
+          "1.21-1.21.8": "mtr:1_21_0/desert-mega-temple/desert-mega-temple-tl",
+          "1.21.9-26.2": "mtr:1_21_9/desert-mega-temple/desert-mega-temple-tl"
         },
-        "processors": "mtr:desert_temple_replace_loot"
+        "processors": "mtr:desert_temple_replace_loot",
+        "projection": "rigid",
+        "element_type": "moogs_structures:versioned_single_pool_element"
       }
     }
   ]

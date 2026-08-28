@@ -1,20 +1,18 @@
 {
-    "name": "mtr:desert-mega-temple/start_pool",
-    "fallback": "minecraft:empty",
-    "elements": [
-        {
-            "weight": 1,
-            "element": {
-                "location": "mtr:desert-mega-temple/desert-mega-temple-bl",
-                "locations": {
-                    "1.21-1.21.4": "mtr:desert-mega-temple/desert-mega-temple-bl",
-                    "1.21.5-1.21.11": "mtr:desert-mega-temple/1_21_5/desert-mega-temple-bl",
-                    "26.1-26.2": "mtr:desert-mega-temple/1_21_5/desert-mega-temple-bl"
-                },
-                "processors": "mtr:desert_temple_replace_loot",
-                "projection": "rigid",
-                "element_type": "moogs_structures:versioned_single_pool_element"
-            }
-        }
-    ]
+  "name": "mtr:desert-mega-temple/start_pool",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "mtr:1_21_0/desert-mega-temple/desert-mega-temple-bl",
+        "locations": {
+          "1.21-26.2": "mtr:1_21_0/desert-mega-temple/desert-mega-temple-bl"
+        },
+        "processors": "mtr:desert_temple_replace_loot",
+        "projection": "rigid",
+        "element_type": "moogs_structures:versioned_single_pool_element"
+      }
+    }
+  ]
 }
