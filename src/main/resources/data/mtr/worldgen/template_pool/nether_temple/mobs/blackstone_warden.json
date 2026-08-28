@@ -1,0 +1,20 @@
+{
+  "name": "mtr:nether_temple/mobs/blackstone_warden",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "mtr:1_21_5/nether_temple/mobs/blackstone_warden",
+        "locations": {
+          "1.21-1.21.1": "mtr:1_21_0/nether_temple/mobs/blackstone_warden",
+          "1.21.2-1.21.4": "mtr:1_21_2/nether_temple/mobs/blackstone_warden",
+          "1.21.5-26.2": "mtr:1_21_5/nether_temple/mobs/blackstone_warden"
+        },
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "moogs_structures:versioned_single_pool_element"
+      }
+    }
+  ]
+}

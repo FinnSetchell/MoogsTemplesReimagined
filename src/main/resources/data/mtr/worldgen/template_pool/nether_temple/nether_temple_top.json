@@ -5,10 +5,13 @@
     {
       "weight": 1,
       "element": {
-        "element_type": "minecraft:single_pool_element",
+        "location": "mtr:1_21_0/nether_temple/nether_temple_top",
+        "locations": {
+          "1.21-26.2": "mtr:1_21_0/nether_temple/nether_temple_top"
+        },
+        "processors": "minecraft:empty",
         "projection": "rigid",
-        "location": "mtr:nether_temple/nether_temple_top",
-        "processors": "minecraft:empty"
+        "element_type": "moogs_structures:versioned_single_pool_element"
       }
     }
   ]
