@@ -1,6 +1,5 @@
 {
   "replace": false,
-
   "_comment": " This biome tag can specify the biome directly. Or specify another biome tag by starting with # ",
   "values": [
     "minecraft:dark_forest",
@@ -14,6 +13,10 @@
     },
     {
       "id": "byg:ebony_woods",
+      "required": false
+    },
+    {
+      "id": "#c:is_dark_forest",
       "required": false
     }
   ]
