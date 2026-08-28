@@ -38,6 +38,7 @@
 
 
 ### Fixed
+- Jungle temple banners showed no pattern on 1.20.
 - Structures now appear in matching modded biomes across all three mod loaders.
 - Corridor chests in the stronghold and crypt barrels in the jungle temple generated empty on some versions.
 - Signs in the temples showed no text on 1.20.
