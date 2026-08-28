@@ -43,6 +43,7 @@
 - Corridor chests in the stronghold and crypt barrels in the jungle temple generated empty on some versions.
 - Signs in the temples showed no text on 1.20.
 - Armour stands in the jungle temple were missing, and its spawners never filled.
+- Fixed a heavy slowdown while a stronghold was generating.
 
 ---
 
