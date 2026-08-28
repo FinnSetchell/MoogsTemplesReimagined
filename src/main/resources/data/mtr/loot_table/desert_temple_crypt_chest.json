@@ -138,12 +138,12 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 4,
+          "weight": 10,
           "name": "minecraft:totem_of_undying"
         },
         {
           "type": "minecraft:item",
-          "weight": 6,
+          "weight": 15,
           "name": "minecraft:book",
           "functions": [
             {
@@ -169,22 +169,22 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 8,
+          "weight": 12,
           "name": "minecraft:music_disc_cat"
         },
         {
           "type": "minecraft:item",
-          "weight": 6,
+          "weight": 9,
           "name": "minecraft:music_disc_13"
         },
         {
           "type": "minecraft:item",
-          "weight": 4,
+          "weight": 6,
           "name": "minecraft:name_tag"
         },
         {
           "type": "minecraft:item",
-          "weight": 3,
+          "weight": 2,
           "name": "minecraft:diamond_horse_armor"
         }
       ]
