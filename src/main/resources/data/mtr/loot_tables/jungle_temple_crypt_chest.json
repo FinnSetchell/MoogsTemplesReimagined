@@ -97,7 +97,7 @@
                 "min": 10,
                 "max": 25
               },
-              "options": "#minecraft:on_random_loot"
+              "treasure": true
             }
           ]
         },
@@ -113,7 +113,7 @@
                 "min": 10,
                 "max": 25
               },
-              "options": "#minecraft:on_random_loot"
+              "treasure": true
             },
             {
               "function": "minecraft:set_damage",
@@ -136,7 +136,7 @@
                 "min": 10,
                 "max": 25
               },
-              "options": "#minecraft:on_random_loot"
+              "treasure": true
             },
             {
               "function": "minecraft:set_damage",
@@ -159,7 +159,7 @@
                 "min": 10,
                 "max": 25
               },
-              "options": "#minecraft:on_random_loot"
+              "treasure": true
             },
             {
               "function": "minecraft:set_damage",

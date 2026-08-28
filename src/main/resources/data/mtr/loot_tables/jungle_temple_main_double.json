@@ -88,13 +88,13 @@
                 "min": 15,
                 "max": 30
               },
-              "options": "#minecraft:on_random_loot"
+              "treasure": true
             }
           ]
         },
         {
           "type": "minecraft:item",
-          "weight": 8,
+          "weight": 1,
           "name": "minecraft:diamond_helmet",
           "functions": [
             {
@@ -104,7 +104,7 @@
                 "min": 15,
                 "max": 30
               },
-              "options": "#minecraft:on_random_loot"
+              "treasure": true
             },
             {
               "function": "minecraft:set_damage",
@@ -117,7 +117,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 8,
+          "weight": 1,
           "name": "minecraft:diamond_chestplate",
           "functions": [
             {
@@ -127,7 +127,7 @@
                 "min": 15,
                 "max": 30
               },
-              "options": "#minecraft:on_random_loot"
+              "treasure": true
             },
             {
               "function": "minecraft:set_damage",
@@ -140,7 +140,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 8,
+          "weight": 1,
           "name": "minecraft:diamond_leggings",
           "functions": [
             {
@@ -150,7 +150,7 @@
                 "min": 15,
                 "max": 30
               },
-              "options": "#minecraft:on_random_loot"
+              "treasure": true
             },
             {
               "function": "minecraft:set_damage",
@@ -163,7 +163,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 8,
+          "weight": 1,
           "name": "minecraft:diamond_boots",
           "functions": [
             {
@@ -173,7 +173,7 @@
                 "min": 15,
                 "max": 30
               },
-              "options": "#minecraft:on_random_loot"
+              "treasure": true
             },
             {
               "function": "minecraft:set_damage",
@@ -186,7 +186,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 6,
+          "weight": 1,
           "name": "minecraft:diamond_sword",
           "functions": [
             {
@@ -196,7 +196,7 @@
                 "min": 15,
                 "max": 30
               },
-              "options": "#minecraft:on_random_loot"
+              "treasure": true
             },
             {
               "function": "minecraft:set_damage",
@@ -219,7 +219,7 @@
                 "min": 15,
                 "max": 30
               },
-              "options": "#minecraft:on_random_loot"
+              "treasure": true
             },
             {
               "function": "minecraft:set_damage",

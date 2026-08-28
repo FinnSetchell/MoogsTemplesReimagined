@@ -8,66 +8,22 @@
         {
           "type": "minecraft:item",
           "weight": 20,
-          "name": "minecraft:arrow",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 8,
-                "max": 16
-              },
-              "function": "minecraft:set_count"
-            }
-          ]
+          "name": "minecraft:archer_pottery_sherd"
         },
         {
           "type": "minecraft:item",
           "weight": 18,
-          "name": "minecraft:gold_nugget",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 3,
-                "max": 8
-              },
-              "function": "minecraft:set_count"
-            }
-          ]
+          "name": "minecraft:prize_pottery_sherd"
         },
         {
           "type": "minecraft:item",
           "weight": 15,
-          "name": "minecraft:bone",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 2,
-                "max": 5
-              },
-              "function": "minecraft:set_count"
-            }
-          ]
+          "name": "minecraft:skull_pottery_sherd"
         },
         {
           "type": "minecraft:item",
           "weight": 12,
-          "name": "minecraft:string",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 3,
-                "max": 8
-              },
-              "function": "minecraft:set_count"
-            }
-          ]
+          "name": "minecraft:arms_up_pottery_sherd"
         },
         {
           "type": "minecraft:item",
@@ -97,7 +53,7 @@
         {
           "type": "minecraft:item",
           "weight": 3,
-          "name": "minecraft:music_disc_otherside"
+          "name": "minecraft:music_disc_relic"
         }
       ]
     }
