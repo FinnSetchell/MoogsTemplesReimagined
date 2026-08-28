@@ -11,13 +11,14 @@
   - The stronghold now generates in the same circular ring pattern as the vanilla one. While it is not replacing vanilla it spawns about a fifth as often; when it is replacing, it spawns just as often as the vanilla stronghold would have.
 - Each temple now appears in the Moogs Structures config with a rarity slider (how spread out it is), a preview button (opens its online 3D preview), and an on/off toggle to disable it. Changes apply when you reload the world.
 - Temples are now guarded. Mummified sentinels and an ancient pharaoh watch over the desert temple, and the jungle temple has its own ancient sentinels, mossy crypt keepers and overgrown wanderers. An elder guardian now waits inside the ocean temple.
-- Spawners throughout the temples are filled in as the structure generates, so what you meet suits where you are: piglins and piglin brutes in the nether temple, husks in the desert temple, guardians in the ocean temple, and silverfish in the stronghold.
+- Spawners throughout the temples are filled in as the structure generates, so what you meet suits where you are: piglins and piglin brutes in the nether temple, husks in the desert temple, guardians in the ocean temple, cave spiders in the jungle temple, and silverfish in the stronghold.
 - Bring a brush. Suspicious sand is buried in the desert temple walls, and there are dig sites in the jungle temple and in the stronghold's great hall - each with its own finds, from pottery sherds and emeralds to a rare music disc for the persistent.
 - Every decorated pot now holds something, across the badlands, desert, jungle and stronghold.
-- Armour stands in the stronghold now come wearing armour.
+- Armour stands in the stronghold and jungle temple now come wearing armour.
 - Infested blocks are scattered through the stronghold at the same rate vanilla uses, so breaking the wrong block can wake something up.
 - New rooms for the stronghold, including decorated dead ends and a large room with a table, all with loot of their own.
 - Loot in a lot of containers that were previously empty, across the badlands, desert, jungle and stronghold.
+- Three new guardians for the nether temple, at rising difficulty: ember acolytes that ignore a player wearing gold, blackstone wardens that do not, and a rare infernal warlord whose hits inflict Wither.
 
 ### Changed
 - Greatly improved the style of generation for the following structures. Most of these also generate more often, which can easily be configured in the Moogs Structures config.
@@ -31,6 +32,15 @@
     - ![image](https://pub-24a4e0e7ea8544a5b6f73c3a23512589.r2.dev/images/066e8f8a9c8948169332ba975205e57a.png)
 - Reworked the stronghold again: how it is placed, which pieces it picks from, and how many of each can appear in one stronghold. Expect more variety and fewer repeated rooms.
 - Tuned how far apart ocean temples generate.
+
+- Roughly halved the chance of finding diamond gear in the desert temple's chests.
+- Removed the trident from the jungle temple's loot.
+
+
+### Fixed
+- Corridor chests in the stronghold and crypt barrels in the jungle temple generated empty on some versions.
+- Signs in the temples showed no text on 1.20.
+- Armour stands in the jungle temple were missing, and its spawners never filled.
 
 ---
 
