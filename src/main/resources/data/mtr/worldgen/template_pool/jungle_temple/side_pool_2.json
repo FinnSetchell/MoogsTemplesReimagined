@@ -5,15 +5,13 @@
     {
       "weight": 1,
       "element": {
-        "element_type": "moogs_structures:versioned_single_pool_element",
-        "projection": "rigid",
-        "location": "mtr:jungle_temple/jungle_temple_2",
+        "location": "mtr:1_21_0/jungle_temple/jungle_temple_2",
         "locations": {
-          "1.21-1.21.4": "mtr:jungle_temple/jungle_temple_2",
-          "1.21.5-1.21.11": "mtr:jungle_temple/1_21_5/jungle_temple_2",
-          "26.1-26.2": "mtr:jungle_temple/1_21_5/jungle_temple_2"
+          "1.21-26.2": "mtr:1_21_0/jungle_temple/jungle_temple_2"
         },
-        "processors": "mtr:jungle_temple_replace_loot"
+        "processors": "mtr:jungle_temple_replace_loot",
+        "projection": "rigid",
+        "element_type": "moogs_structures:versioned_single_pool_element"
       }
     }
   ]
