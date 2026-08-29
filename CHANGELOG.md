@@ -18,7 +18,7 @@
 - Infested blocks are scattered through the stronghold at the same rate vanilla uses, so breaking the wrong block can wake something up.
 - New rooms for the stronghold, including decorated dead ends and a large room with a table, all with loot of their own.
 - Loot in a lot of containers that were previously empty, across the badlands, desert, jungle and stronghold.
-- Three new guardians for the nether temple, at rising difficulty: ember acolytes that ignore a player wearing gold, blackstone wardens that do not, and a rare infernal warlord in full enchanted netherite.
+- Three new guardians for the nether temple, at rising difficulty: ember acolytes that ignore a player wearing gold, blackstone wardens that do not, and a rare infernal warlord swinging an enchanted netherite blade.
 
 ### Changed
 - Greatly improved the style of generation for the following structures. Most of these also generate more often, which can easily be configured in the Moogs Structures config.
