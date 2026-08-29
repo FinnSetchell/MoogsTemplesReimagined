@@ -2,7 +2,7 @@
 
 ---
 
-## [1.1.4] - 2026-08-16
+## [1.1.4] - 2026-08-29
 
 ### Added
 - Optional settings to replace vanilla temples with Moog's versions: desert pyramid, jungle temple, ocean monument, and stronghold. Each is off by default and can be toggled from the Moogs Structures config (in game, or in the config file). When a temple is replaced, one of its chest types uses the matching vanilla loot table so items other mods add to that structure still show up.
@@ -24,13 +24,18 @@
 - Greatly improved the style of generation for the following structures. Most of these also generate more often, which can easily be configured in the Moogs Structures config.
   - Desert temple
     - ![image](https://pub-24a4e0e7ea8544a5b6f73c3a23512589.r2.dev/images/c3050f8b64db4856bafdf85f7743a055.png)
+    - ![image](https://pub-24a4e0e7ea8544a5b6f73c3a23512589.r2.dev/images/0996fb7ff0b5448aac21de0943215364.png)
   - Jungle temple
     - ![image](https://pub-24a4e0e7ea8544a5b6f73c3a23512589.r2.dev/images/dd299b68a49d4190b2fbcb7fd6f46c67.png)
+    - ![image](https://pub-24a4e0e7ea8544a5b6f73c3a23512589.r2.dev/images/31cef72ee1f048e9a89f83a4a67c4404.png)
   - Nether temple
     - ![image](https://pub-24a4e0e7ea8544a5b6f73c3a23512589.r2.dev/images/c0cc6e13e5a7447fbb0f2733f131a287.png)
+    - ![image](https://pub-24a4e0e7ea8544a5b6f73c3a23512589.r2.dev/images/76ec9a39bcd743bf876f2c4dd3b0ecde.png)
   - Ocean temple
     - ![image](https://pub-24a4e0e7ea8544a5b6f73c3a23512589.r2.dev/images/066e8f8a9c8948169332ba975205e57a.png)
+    - ![image](https://pub-24a4e0e7ea8544a5b6f73c3a23512589.r2.dev/images/9424ebe325ee4bf38d1a1ee222ca341b.png)
 - Reworked the stronghold again: how it is placed, which pieces it picks from, and how many of each can appear in one stronghold. Expect more variety and fewer repeated rooms.
+  - ![image](https://pub-24a4e0e7ea8544a5b6f73c3a23512589.r2.dev/images/b69a51898f6245d5aa31dec32bb05ca1.png)
 - Tuned how far apart ocean temples generate.
 - Roughly halved the chance of finding diamond gear in the desert temple's chests.
 - Removed the trident from the jungle temple's loot.
