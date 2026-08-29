@@ -34,22 +34,6 @@
             "PersistenceRequired": 1,
             "CanPickUpLoot": 0,
             "attributes": [
-              {
-                "Name": "minecraft:generic.max_health",
-                "Base": 35.0
-              },
-              {
-                "Name": "minecraft:generic.attack_damage",
-                "Base": 3.0
-              },
-              {
-                "Name": "minecraft:generic.movement_speed",
-                "Base": 0.23
-              },
-              {
-                "Name": "minecraft:generic.armor",
-                "Base": 2.0
-              }
             ],
             "ArmorItems": [
               {},
