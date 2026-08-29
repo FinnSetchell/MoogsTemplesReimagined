@@ -44,6 +44,7 @@
 - Signs in the temples showed no text on 1.20.
 - Armour stands in the jungle temple were missing, and its spawners never filled.
 - The jungle temple's guardians did not appear on 1.20.5 and 1.20.6.
+- Tuff blocks in the jungle and nether temples showed as missing on 1.20.3 through 1.20.6.
 - Fixed a heavy slowdown while a stronghold was generating.
 
 ---
