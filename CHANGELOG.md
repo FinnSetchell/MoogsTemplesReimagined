@@ -2,7 +2,7 @@
 
 ---
 
-## [1.1.4] - 2026-08-29
+## [2.0.0] - 2026-08-29
 
 ### Added
 - A config to make the temples replace their vanilla counterparts. This also adds vanilla loot tables to those structures and some other changes so that they are as compatible with other mods as possible.
