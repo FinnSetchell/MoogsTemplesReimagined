@@ -4,8 +4,8 @@
 
 ## [2.0.1] - 2026-08-30
 
-- placeholder
-
+# Added
+- Ocean, desert and jungle temples now appear in vanilla structure maps
 
 ---
 
