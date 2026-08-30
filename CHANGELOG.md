@@ -7,6 +7,9 @@
 # Added
 - Ocean, desert and jungle temples now appear in vanilla structure maps
 
+# Changed
+- Increased how common the temples are. It should now be much closer to their vanilla counterparts.
+
 ---
 
 ## [2.0.0] - 2026-08-29
