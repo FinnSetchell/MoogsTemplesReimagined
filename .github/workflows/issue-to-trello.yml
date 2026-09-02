@@ -1,0 +1,16 @@
+name: Sync issues to Trello
+
+on:
+  issues:
+    types: [opened, edited, reopened, closed, deleted]
+
+permissions:
+  contents: read
+  issues: read
+
+jobs:
+  sync:
+    uses: FinnSetchell/release-actions/.github/workflows/issue-to-trello.yml@issue-to-trello-v1
+    with:
+      trello_list_id: "68a8387b0fb168ef1049a30b"
+    secrets: inherit
