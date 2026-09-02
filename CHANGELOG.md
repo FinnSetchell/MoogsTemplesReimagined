@@ -2,6 +2,13 @@
 
 ---
 
+## [2.0.2] - 2026-09-02
+
+# Fixed
+- Fixed a world generation crash when the ocean temple tried to generate
+
+---
+
 ## [2.0.1] - 2026-08-30
 
 # Added
