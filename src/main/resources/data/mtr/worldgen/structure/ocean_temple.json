@@ -16,6 +16,7 @@
     },
     "burying_type": "AVERAGE_LAND",
     "y_allowance": {
+        "min_y_allowed": 0,
         "max_y_allowed": 41
     },
     "spawn_overrides": {
