@@ -2,6 +2,13 @@
 
 ---
 
+## [2.0.3] - 2026-09-02
+
+# Changed
+- The desert and jungle temples now settle into the landscape instead of cutting a block out of it
+
+---
+
 ## [2.0.2] - 2026-09-02
 
 # Fixed
