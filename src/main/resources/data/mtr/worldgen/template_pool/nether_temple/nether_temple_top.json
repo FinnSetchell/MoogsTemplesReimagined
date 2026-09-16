@@ -7,7 +7,7 @@
       "element": {
         "location": "mtr:1_21_0/nether_temple/nether_temple_top",
         "locations": {
-          "1.21-26.2": "mtr:1_21_0/nether_temple/nether_temple_top"
+          "1.21-26.3": "mtr:1_21_0/nether_temple/nether_temple_top"
         },
         "processors": "minecraft:empty",
         "projection": "rigid",
