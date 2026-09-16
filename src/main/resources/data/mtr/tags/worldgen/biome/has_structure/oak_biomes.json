@@ -4,6 +4,10 @@
   "values": [
     "minecraft:forest",
     {
+      "id": "minecraft:dappled_forest",
+      "required": false
+    },
+    {
       "id": "byg:firecracker_shrubland",
       "required": false
     },
@@ -28,4 +32,4 @@
       "required": false
     }
   ]
-}
+}

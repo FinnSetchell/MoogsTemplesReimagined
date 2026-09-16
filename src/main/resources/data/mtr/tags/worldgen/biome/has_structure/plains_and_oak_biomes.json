@@ -5,6 +5,10 @@
     "minecraft:forest",
     "minecraft:forest",
     {
+      "id": "minecraft:dappled_forest",
+      "required": false
+    },
+    {
       "id": "biomesoplenty:bamboo_grove",
       "required": false
     },
@@ -41,4 +45,4 @@
       "required": false
     }
   ]
-}
+}
