@@ -2,10 +2,21 @@
 
 ---
 
+## [2.0.4] - 2026-09-17
+
+### Added
+- Minecraft 26.3 support
+- Temples that generate in forests now also turn up in the new dappled forest
+
+---
+
 ## [2.0.2] - 2026-09-02
 
 # Fixed
 - Fixed a world generation crash when the ocean temple tried to generate
+
+# Changed
+- The desert and jungle temples now settle into the landscape instead of cutting a block out of it
 
 ---
 
