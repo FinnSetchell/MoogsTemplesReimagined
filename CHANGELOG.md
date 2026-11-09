@@ -2,6 +2,14 @@
 
 ---
 
+## [2.0.4]
+
+### Fixed
+- The book in the jungle temple's puzzle chest now comes enchanted, as it was meant to
+- Books in the stronghold library's chests are now enchanted like an enchanting table, as intended
+
+---
+
 ## [2.0.3] - 2026-09-02
 
 # Changed
