@@ -314,21 +314,23 @@
           "weight": 1,
           "functions": [
             {
-              "function": "minecraft:enchant_randomly",
+              "function": "minecraft:enchant_with_levels",
               "levels": {
                 "type": "minecraft:uniform",
                 "min": 20,
                 "max": 30
-              }
+              },
+              "options": "#minecraft:on_random_loot"
             }
           ],
           "modifier": {
-            "type": "minecraft:enchant_randomly",
+            "type": "minecraft:enchant_with_levels",
             "levels": {
               "type": "minecraft:uniform",
               "min": 20,
               "max": 30
-            }
+            },
+            "options": "#minecraft:on_random_loot"
           }
         }
       ]
