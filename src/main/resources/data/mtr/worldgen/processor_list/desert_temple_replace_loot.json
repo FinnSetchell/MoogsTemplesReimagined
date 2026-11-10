@@ -36,6 +36,7 @@
             },
             "PersistenceRequired": 1,
             "CanPickUpLoot": 0,
+            "Health": 35.0,
             "attributes": [
               {
                 "id": "minecraft:armor",

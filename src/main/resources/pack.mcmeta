@@ -5,5 +5,21 @@
         "min_format": 48,
         "max_format": 121.0,
         "supported_formats": [48, 121]
+    },
+    "overlays": {
+        "entries": [
+            {
+                "formats": [48, 56],
+                "min_format": 48,
+                "max_format": 56,
+                "directory": "ov_1_21"
+            },
+            {
+                "formats": [57, 70],
+                "min_format": 57,
+                "max_format": 70,
+                "directory": "ov_1_21_2"
+            }
+        ]
     }
 }
