@@ -8,6 +8,7 @@
 - The book in the jungle temple's puzzle chest now comes enchanted, as it was meant to
 - Books in the stronghold library's chests are now enchanted like an enchanting table, as intended
 - The Desert Temple Guardian now spawns with its full stats and golden gear on every version
+- Fixed the mod not loading on NeoForge 1.20.5
 
 ---
 
