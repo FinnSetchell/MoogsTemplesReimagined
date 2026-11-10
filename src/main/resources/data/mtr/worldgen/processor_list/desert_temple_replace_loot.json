@@ -33,7 +33,42 @@
             "CustomName": "{\"text\": \"Desert Temple Guardian\", \"italic\": false}",
             "PersistenceRequired": 1,
             "CanPickUpLoot": 0,
+            "Health": 35.0,
+            "Attributes": [
+              {
+                "Name": "minecraft:generic.armor",
+                "Base": 2.0
+              },
+              {
+                "Name": "minecraft:generic.attack_damage",
+                "Base": 3.0
+              },
+              {
+                "Name": "minecraft:generic.max_health",
+                "Base": 35.0
+              },
+              {
+                "Name": "minecraft:generic.movement_speed",
+                "Base": 0.23
+              }
+            ],
             "attributes": [
+              {
+                "id": "minecraft:generic.armor",
+                "base": 2.0
+              },
+              {
+                "id": "minecraft:generic.attack_damage",
+                "base": 3.0
+              },
+              {
+                "id": "minecraft:generic.max_health",
+                "base": 35.0
+              },
+              {
+                "id": "minecraft:generic.movement_speed",
+                "base": 0.23
+              }
             ],
             "ArmorItems": [
               {},
@@ -48,6 +83,19 @@
                       "minecraft:protection": 3
                     }
                   }
+                },
+                "Count": 1,
+                "tag": {
+                  "Enchantments": [
+                    {
+                      "id": "minecraft:thorns",
+                      "lvl": 1
+                    },
+                    {
+                      "id": "minecraft:protection",
+                      "lvl": 3
+                    }
+                  ]
                 }
               },
               {
@@ -65,6 +113,27 @@
                     "material": "minecraft:gold",
                     "pattern": "minecraft:dune"
                   }
+                },
+                "Count": 1,
+                "tag": {
+                  "Enchantments": [
+                    {
+                      "id": "minecraft:power",
+                      "lvl": 4
+                    },
+                    {
+                      "id": "minecraft:thorns",
+                      "lvl": 1
+                    },
+                    {
+                      "id": "minecraft:protection",
+                      "lvl": 3
+                    }
+                  ],
+                  "Trim": {
+                    "material": "minecraft:gold",
+                    "pattern": "minecraft:dune"
+                  }
                 }
               }
             ],
@@ -79,6 +148,19 @@
                       "minecraft:fire_aspect": 1
                     }
                   }
+                },
+                "Count": 1,
+                "tag": {
+                  "Enchantments": [
+                    {
+                      "id": "minecraft:sharpness",
+                      "lvl": 4
+                    },
+                    {
+                      "id": "minecraft:fire_aspect",
+                      "lvl": 1
+                    }
+                  ]
                 }
               },
               {}
