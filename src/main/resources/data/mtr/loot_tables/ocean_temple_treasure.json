@@ -20,6 +20,38 @@
           { "type": "item", "name": "minecraft:turtle_helmet", "weight": 2, "functions": [{ "function": "enchant_randomly" }] },
           { "type": "item", "name": "minecraft:netherite_scrap", "weight": 2, "functions": [{ "function": "set_count", "count": { "min": 1, "max": 2 } }] }
         ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:map",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:exploration_map",
+                "destination": "mtr:on_desert_temple_maps",
+                "decoration": "red_x",
+                "zoom": 2,
+                "search_radius": 6,
+                "skip_existing_chunks": false
+              },
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "translate": "filled_map.mtr.desert_temple_map",
+                  "fallback": "Desert Temple Map"
+                },
+                "target": "item_name"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:empty",
+            "weight": 2
+          }
+        ]
       }
     ]
   }

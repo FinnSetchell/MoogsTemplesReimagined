@@ -5,5 +5,9 @@
   "mtr.releases": "GitHub Releases",
   "mtr.kofi": "Ko-fi",
   "mtr.curseforge": "CurseForge",
-  "mtr.modrinth": "Modrinth"
+  "mtr.modrinth": "Modrinth",
+  "filled_map.mtr.badlands_temple_map": "Badlands Temple Map",
+  "filled_map.mtr.jungle_temple_map": "Jungle Temple Map",
+  "filled_map.mtr.ocean_temple_map": "Ocean Temple Map",
+  "filled_map.mtr.desert_temple_map": "Desert Temple Map"
 }
