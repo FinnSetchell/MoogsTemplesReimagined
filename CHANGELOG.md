@@ -4,6 +4,9 @@
 
 ## [2.0.4]
 
+### Added
+- Temple chests can hold maps to the other temples, and the stronghold's library can hold maps to the jungle and badlands temples
+
 ### Fixed
 - The book in the jungle temple's puzzle chest now comes enchanted, as it was meant to
 - Books in the stronghold library's chests are now enchanted like an enchanting table, as intended
