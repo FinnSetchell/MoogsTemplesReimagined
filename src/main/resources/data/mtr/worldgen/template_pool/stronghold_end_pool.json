@@ -5,10 +5,10 @@
     {
       "weight": 1,
       "element": {
-        "location": "mtr:1_20_5/stronghold/stronghold_dead_end_1",
+        "location": "mtr:1_20_5/stronghold/dead_end_1",
         "locations": {
-          "1.20-1.20.4": "mtr:1_20_0/stronghold/stronghold_dead_end_1",
-          "1.20.5-1.20.6": "mtr:1_20_5/stronghold/stronghold_dead_end_1"
+          "1.20-1.20.4": "mtr:1_20_0/stronghold/dead_end_1",
+          "1.20.5-1.20.6": "mtr:1_20_5/stronghold/dead_end_1"
         },
         "processors": "mtr:stronghold_replace_loot",
         "projection": "rigid",
@@ -18,10 +18,10 @@
     {
       "weight": 1,
       "element": {
-        "location": "mtr:1_20_5/stronghold/stronghold_dead_end_2",
+        "location": "mtr:1_20_5/stronghold/dead_end_2",
         "locations": {
-          "1.20-1.20.4": "mtr:1_20_0/stronghold/stronghold_dead_end_2",
-          "1.20.5-1.20.6": "mtr:1_20_5/stronghold/stronghold_dead_end_2"
+          "1.20-1.20.4": "mtr:1_20_0/stronghold/dead_end_2",
+          "1.20.5-1.20.6": "mtr:1_20_5/stronghold/dead_end_2"
         },
         "processors": "mtr:stronghold_replace_loot",
         "projection": "rigid",
@@ -31,10 +31,10 @@
     {
       "weight": 1,
       "element": {
-        "location": "mtr:1_20_5/stronghold/stronghold_dead_end_3",
+        "location": "mtr:1_20_5/stronghold/dead_end_3",
         "locations": {
-          "1.20-1.20.4": "mtr:1_20_0/stronghold/stronghold_dead_end_3",
-          "1.20.5-1.20.6": "mtr:1_20_5/stronghold/stronghold_dead_end_3"
+          "1.20-1.20.4": "mtr:1_20_0/stronghold/dead_end_3",
+          "1.20.5-1.20.6": "mtr:1_20_5/stronghold/dead_end_3"
         },
         "processors": "mtr:stronghold_replace_loot",
         "projection": "rigid",
@@ -44,10 +44,10 @@
     {
       "weight": 1,
       "element": {
-        "location": "mtr:1_20_5/stronghold/stronghold_dead_end_4",
+        "location": "mtr:1_20_5/stronghold/dead_end_4",
         "locations": {
-          "1.20-1.20.4": "mtr:1_20_0/stronghold/stronghold_dead_end_4",
-          "1.20.5-1.20.6": "mtr:1_20_5/stronghold/stronghold_dead_end_4"
+          "1.20-1.20.4": "mtr:1_20_0/stronghold/dead_end_4",
+          "1.20.5-1.20.6": "mtr:1_20_5/stronghold/dead_end_4"
         },
         "processors": "mtr:stronghold_replace_loot",
         "projection": "rigid",
@@ -57,10 +57,10 @@
     {
       "weight": 1,
       "element": {
-        "location": "mtr:1_20_5/stronghold/stronghold_dead_end_5",
+        "location": "mtr:1_20_5/stronghold/dead_end_5",
         "locations": {
-          "1.20-1.20.4": "mtr:1_20_0/stronghold/stronghold_dead_end_5",
-          "1.20.5-1.20.6": "mtr:1_20_5/stronghold/stronghold_dead_end_5"
+          "1.20-1.20.4": "mtr:1_20_0/stronghold/dead_end_5",
+          "1.20.5-1.20.6": "mtr:1_20_5/stronghold/dead_end_5"
         },
         "processors": "mtr:stronghold_replace_loot",
         "projection": "rigid",
@@ -70,10 +70,10 @@
     {
       "weight": 1,
       "element": {
-        "location": "mtr:1_20_5/stronghold/stronghold_dead_end_6",
+        "location": "mtr:1_20_5/stronghold/dead_end_6",
         "locations": {
-          "1.20-1.20.4": "mtr:1_20_0/stronghold/stronghold_dead_end_6",
-          "1.20.5-1.20.6": "mtr:1_20_5/stronghold/stronghold_dead_end_6"
+          "1.20-1.20.4": "mtr:1_20_0/stronghold/dead_end_6",
+          "1.20.5-1.20.6": "mtr:1_20_5/stronghold/dead_end_6"
         },
         "processors": "mtr:stronghold_replace_loot",
         "projection": "rigid",
@@ -83,10 +83,10 @@
     {
       "weight": 1,
       "element": {
-        "location": "mtr:1_20_5/stronghold/stronghold_dead_end_decorated_1",
+        "location": "mtr:1_20_5/stronghold/dead_end_decorated_1",
         "locations": {
-          "1.20-1.20.4": "mtr:1_20_0/stronghold/stronghold_dead_end_decorated_1",
-          "1.20.5-1.20.6": "mtr:1_20_5/stronghold/stronghold_dead_end_decorated_1"
+          "1.20-1.20.4": "mtr:1_20_0/stronghold/dead_end_decorated_1",
+          "1.20.5-1.20.6": "mtr:1_20_5/stronghold/dead_end_decorated_1"
         },
         "processors": "mtr:stronghold_replace_loot",
         "projection": "rigid",
@@ -96,10 +96,10 @@
     {
       "weight": 1,
       "element": {
-        "location": "mtr:1_20_5/stronghold/stronghold_dead_end_decorated_2",
+        "location": "mtr:1_20_5/stronghold/dead_end_decorated_2",
         "locations": {
-          "1.20-1.20.4": "mtr:1_20_0/stronghold/stronghold_dead_end_decorated_2",
-          "1.20.5-1.20.6": "mtr:1_20_5/stronghold/stronghold_dead_end_decorated_2"
+          "1.20-1.20.4": "mtr:1_20_0/stronghold/dead_end_decorated_2",
+          "1.20.5-1.20.6": "mtr:1_20_5/stronghold/dead_end_decorated_2"
         },
         "processors": "mtr:stronghold_replace_loot",
         "projection": "rigid",
@@ -109,10 +109,10 @@
     {
       "weight": 1,
       "element": {
-        "location": "mtr:1_20_5/stronghold/stronghold_dead_end_decorated_3",
+        "location": "mtr:1_20_5/stronghold/dead_end_decorated_3",
         "locations": {
-          "1.20-1.20.4": "mtr:1_20_0/stronghold/stronghold_dead_end_decorated_3",
-          "1.20.5-1.20.6": "mtr:1_20_5/stronghold/stronghold_dead_end_decorated_3"
+          "1.20-1.20.4": "mtr:1_20_0/stronghold/dead_end_decorated_3",
+          "1.20.5-1.20.6": "mtr:1_20_5/stronghold/dead_end_decorated_3"
         },
         "processors": "mtr:stronghold_replace_loot",
         "projection": "rigid",
@@ -122,10 +122,10 @@
     {
       "weight": 1,
       "element": {
-        "location": "mtr:1_20_5/stronghold/stronghold_dead_end_decorated_4",
+        "location": "mtr:1_20_5/stronghold/dead_end_decorated_4",
         "locations": {
-          "1.20-1.20.4": "mtr:1_20_0/stronghold/stronghold_dead_end_decorated_4",
-          "1.20.5-1.20.6": "mtr:1_20_5/stronghold/stronghold_dead_end_decorated_4"
+          "1.20-1.20.4": "mtr:1_20_0/stronghold/dead_end_decorated_4",
+          "1.20.5-1.20.6": "mtr:1_20_5/stronghold/dead_end_decorated_4"
         },
         "processors": "mtr:stronghold_replace_loot",
         "projection": "rigid",
@@ -135,10 +135,10 @@
     {
       "weight": 1,
       "element": {
-        "location": "mtr:1_20_5/stronghold/stronghold_dead_end_decorated_5",
+        "location": "mtr:1_20_5/stronghold/dead_end_decorated_5",
         "locations": {
-          "1.20-1.20.4": "mtr:1_20_0/stronghold/stronghold_dead_end_decorated_5",
-          "1.20.5-1.20.6": "mtr:1_20_5/stronghold/stronghold_dead_end_decorated_5"
+          "1.20-1.20.4": "mtr:1_20_0/stronghold/dead_end_decorated_5",
+          "1.20.5-1.20.6": "mtr:1_20_5/stronghold/dead_end_decorated_5"
         },
         "processors": "mtr:stronghold_replace_loot",
         "projection": "rigid",

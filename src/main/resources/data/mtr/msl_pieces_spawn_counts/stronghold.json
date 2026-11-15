@@ -1,95 +1,95 @@
 {
   "pieces_spawn_counts": [
     {
-      "nbt_piece_name": "mtr:1_20_0/stronghold/stronghold_library",
+      "nbt_piece_name": "mtr:1_20_0/stronghold/library",
       "never_spawn_more_than_this_many": 1
     },
     {
-      "nbt_piece_name": "mtr:1_20_5/stronghold/stronghold_library",
+      "nbt_piece_name": "mtr:1_20_5/stronghold/library",
       "never_spawn_more_than_this_many": 1
     },
     {
-      "nbt_piece_name": "mtr:1_20_0/stronghold/stronghold_bunks",
+      "nbt_piece_name": "mtr:1_20_0/stronghold/bunks",
       "never_spawn_more_than_this_many": 2
     },
     {
-      "nbt_piece_name": "mtr:1_20_5/stronghold/stronghold_bunks",
+      "nbt_piece_name": "mtr:1_20_5/stronghold/bunks",
       "never_spawn_more_than_this_many": 2
     },
     {
-      "nbt_piece_name": "mtr:1_20_0/stronghold/stronghold_round_staircase_1",
+      "nbt_piece_name": "mtr:1_20_0/stronghold/round_staircase_1",
       "never_spawn_more_than_this_many": 2
     },
     {
-      "nbt_piece_name": "mtr:1_20_5/stronghold/stronghold_round_staircase_1",
+      "nbt_piece_name": "mtr:1_20_5/stronghold/round_staircase_1",
       "never_spawn_more_than_this_many": 2
     },
     {
-      "nbt_piece_name": "mtr:1_20_0/stronghold/stronghold_staircase_1",
+      "nbt_piece_name": "mtr:1_20_0/stronghold/staircase_1",
       "never_spawn_more_than_this_many": 2
     },
     {
-      "nbt_piece_name": "mtr:1_20_5/stronghold/stronghold_staircase_1",
+      "nbt_piece_name": "mtr:1_20_5/stronghold/staircase_1",
       "never_spawn_more_than_this_many": 2
     },
     {
-      "nbt_piece_name": "mtr:1_20_0/stronghold/stronghold_staircase_2",
+      "nbt_piece_name": "mtr:1_20_0/stronghold/staircase_2",
       "never_spawn_more_than_this_many": 2
     },
     {
-      "nbt_piece_name": "mtr:1_20_5/stronghold/stronghold_staircase_2",
+      "nbt_piece_name": "mtr:1_20_5/stronghold/staircase_2",
       "never_spawn_more_than_this_many": 2
     },
     {
-      "nbt_piece_name": "mtr:1_20_0/stronghold/stronghold_staircase_3",
+      "nbt_piece_name": "mtr:1_20_0/stronghold/staircase_3",
       "never_spawn_more_than_this_many": 2
     },
     {
-      "nbt_piece_name": "mtr:1_20_5/stronghold/stronghold_staircase_3",
+      "nbt_piece_name": "mtr:1_20_5/stronghold/staircase_3",
       "never_spawn_more_than_this_many": 2
     },
     {
-      "nbt_piece_name": "mtr:1_20_0/stronghold/stronghold_crossing_1",
+      "nbt_piece_name": "mtr:1_20_0/stronghold/crossing_1",
       "never_spawn_more_than_this_many": 4
     },
     {
-      "nbt_piece_name": "mtr:1_20_5/stronghold/stronghold_crossing_1",
+      "nbt_piece_name": "mtr:1_20_5/stronghold/crossing_1",
       "never_spawn_more_than_this_many": 4
     },
     {
-      "nbt_piece_name": "mtr:1_20_0/stronghold/stronghold_crossing_2",
+      "nbt_piece_name": "mtr:1_20_0/stronghold/crossing_2",
       "never_spawn_more_than_this_many": 4
     },
     {
-      "nbt_piece_name": "mtr:1_20_5/stronghold/stronghold_crossing_2",
+      "nbt_piece_name": "mtr:1_20_5/stronghold/crossing_2",
       "never_spawn_more_than_this_many": 4
     },
     {
-      "nbt_piece_name": "mtr:1_20_0/stronghold/stronghold_crossing_3",
+      "nbt_piece_name": "mtr:1_20_0/stronghold/crossing_3",
       "never_spawn_more_than_this_many": 4
     },
     {
-      "nbt_piece_name": "mtr:1_20_5/stronghold/stronghold_crossing_3",
+      "nbt_piece_name": "mtr:1_20_5/stronghold/crossing_3",
       "never_spawn_more_than_this_many": 4
     },
     {
-      "nbt_piece_name": "mtr:1_20_0/stronghold/stronghold_crossing_4",
+      "nbt_piece_name": "mtr:1_20_0/stronghold/crossing_4",
       "never_spawn_more_than_this_many": 4
     },
     {
-      "nbt_piece_name": "mtr:1_20_5/stronghold/stronghold_crossing_4",
+      "nbt_piece_name": "mtr:1_20_5/stronghold/crossing_4",
       "never_spawn_more_than_this_many": 4
     },
     {
-      "nbt_piece_name": "mtr:1_20_0/stronghold/stronghold_large_room_with_table",
+      "nbt_piece_name": "mtr:1_20_0/stronghold/large_room_with_table",
       "never_spawn_more_than_this_many": 1
     },
     {
-      "nbt_piece_name": "mtr:1_20_3/stronghold/stronghold_large_room_with_table",
+      "nbt_piece_name": "mtr:1_20_3/stronghold/large_room_with_table",
       "never_spawn_more_than_this_many": 1
     },
     {
-      "nbt_piece_name": "mtr:1_20_5/stronghold/stronghold_large_room_with_table",
+      "nbt_piece_name": "mtr:1_20_5/stronghold/large_room_with_table",
       "never_spawn_more_than_this_many": 1
     }
   ]

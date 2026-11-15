@@ -5,10 +5,10 @@
     {
       "weight": 1,
       "element": {
-        "location": "mtr:1_20_5/stronghold/stronghold",
+        "location": "mtr:1_20_5/stronghold/portal_room",
         "locations": {
-          "1.20-1.20.4": "mtr:1_20_0/stronghold/stronghold",
-          "1.20.5-1.20.6": "mtr:1_20_5/stronghold/stronghold"
+          "1.20-1.20.4": "mtr:1_20_0/stronghold/portal_room",
+          "1.20.5-1.20.6": "mtr:1_20_5/stronghold/portal_room"
         },
         "processors": "mtr:stronghold_replace_loot",
         "projection": "rigid",
