@@ -5,9 +5,9 @@
     {
       "weight": 1,
       "element": {
-        "location": "mtr:1_21_0/stronghold/stronghold_round_staircase_first",
+        "location": "mtr:1_21_0/stronghold/round_staircase_first",
         "locations": {
-          "1.21-26.3": "mtr:1_21_0/stronghold/stronghold_round_staircase_first"
+          "1.21-26.3": "mtr:1_21_0/stronghold/round_staircase_first"
         },
         "processors": "mtr:stronghold_replace_loot",
         "projection": "rigid",
