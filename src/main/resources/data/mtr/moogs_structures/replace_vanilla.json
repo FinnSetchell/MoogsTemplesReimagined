@@ -31,19 +31,6 @@
             ]
         },
         {
-            "id": "replace_ocean_monument",
-            "name": "Replace Ocean Monument",
-            "description": "Replace the vanilla ocean monument with Moog's ocean temple. Ocean explorer maps lead to the ocean temple.",
-            "default_enabled": true,
-            "replacements": [
-                {
-                    "vanilla_key": "monument",
-                    "vanilla_structure": "minecraft:monument",
-                    "replacement_structure": "mtr:ocean_temple"
-                }
-            ]
-        },
-        {
             "id": "replace_stronghold",
             "name": "Replace Stronghold",
             "description": "Replace the vanilla stronghold with Moog's stronghold. Eyes of ender lead to it, and its corridor chests use the vanilla stronghold loot so mod loot injections still show up.",

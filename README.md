@@ -10,9 +10,9 @@ This Mod works for Forge, Fabric, and NeoForge! Make sure to check what versions
 
 ### ABOUT
 
-Moog's Temples Reimagined adds larger, overhauled temple structures. It includes desert, jungle, ocean, badlands, and nether temples, plus a custom stronghold. Built on MoogsStructureLib.
+Moog's Temples Reimagined adds larger, overhauled temple structures. It includes desert, jungle, badlands, and nether temples, plus a custom stronghold. Built on MoogsStructureLib.
 
-By default, the desert temple, jungle temple, ocean temple and stronghold replace the vanilla desert pyramid, jungle temple, ocean monument and stronghold. Each replacement can be turned off in Moog's Structure Lib's config, and that structure then generates alongside the vanilla one instead.
+By default, the desert temple, jungle temple and stronghold replace the vanilla desert pyramid, jungle temple and stronghold. Each replacement can be turned off in Moog's Structure Lib's config, and that structure then generates alongside the vanilla one instead.
 
 [![Browse every structure live in 3D](https://i.moogsmods.com/images/f8fe835413394a76b10a678afefea30f.png)](https://previews.moogsmods.com/temples-reimagined/1.21.1/)
 
@@ -26,7 +26,6 @@ By default, the desert temple, jungle temple, ocean temple and stronghold replac
 
 *   **Desert Temple**
 *   **Jungle Temple**
-*   **Ocean Temple**
 *   **Badlands Temple**
 *   **Nether Temple**
 *   **Stronghold**
