@@ -6,13 +6,30 @@
 
 ### Added
 - Temple chests can hold maps to the other temples, and the stronghold's library can hold maps to the jungle and badlands temples
+- A new tunnel runs beneath the jungle temple
 
 ### Fixed
 - Chests on Minecraft 26.3 now give full stacks and enchanted items, the same as on older versions
 - The book in the jungle temple's puzzle chest now comes enchanted, as it was meant to
 - Books in the stronghold library's chests are now enchanted like an enchanting table, as intended
+- Strongholds now generate in every biome, as vanilla ones do. Before, about four in ten were missing, so eyes of ender often led much further away
 - The Desert Temple Guardian now spawns with its full stats and golden gear on every version
-- Jungle and ocean explorer maps can now lead to these temples on Minecraft 26.3, as they do on older versions
+- Jungle explorer maps can now lead to the jungle temple on Minecraft 26.3, as they do on older versions
+- The stronghold's big table room no longer shows a line of purple and pink concrete along its outer edge
+- Two chests in one of the stronghold's long corridors no longer hold the same items in every world
+- Lava in the stronghold's portal room no longer hangs over empty space, so it stays put when the room sits above a cave
+- Four chests in the jungle temple that were always empty now hold loot, and its crypt barrels are stocked
+- A stray ladder no longer lies on the jungle temple's floor
+- The two empty chests in the nether temple now have loot
+
+### Changed
+- Now requires Moog's Structure Lib 4.0.0 or newer
+- The stronghold's portal room has a reworked lava platform and a few changes to its walls
+- When they replace vanilla's, strongholds now sit a little closer to spawn, about where vanilla ones would
+- When vanilla or Integrated Stronghold strongholds share the world, strongholds now keep further away from them
+- The ocean temple has moved to Moog's Ocean Structures
+  - Ocean monuments are no longer replaced, so they generate again in new chunks
+  - Jungle temple crypt chests no longer hold ocean temple maps
 
 ---
 
