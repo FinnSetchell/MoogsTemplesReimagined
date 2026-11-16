@@ -5,9 +5,9 @@
     {
       "weight": 1,
       "element": {
-        "location": "mtr:1_21_0/nether_temple/nether_temple_side",
+        "location": "mtr:1_21_0/nether_temple/side",
         "locations": {
-          "1.21-26.3": "mtr:1_21_0/nether_temple/nether_temple_side"
+          "1.21-26.3": "mtr:1_21_0/nether_temple/side"
         },
         "processors": "mtr:nether_temple_spawners",
         "projection": "rigid",

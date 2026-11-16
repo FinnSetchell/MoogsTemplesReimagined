@@ -5,13 +5,13 @@
     {
       "weight": 1,
       "element": {
-        "location": "mtr:26_3_0/jungle_temple/jungle_temple",
+        "location": "mtr:26_3_0/jungle_temple/main",
         "locations": {
-          "1.21-1.21.1": "mtr:1_21_0/jungle_temple/jungle_temple",
-          "1.21.2-1.21.4": "mtr:1_21_2/jungle_temple/jungle_temple",
-          "1.21.5-1.21.8": "mtr:1_21_5/jungle_temple/jungle_temple",
-          "1.21.9-26.2": "mtr:1_21_9/jungle_temple/jungle_temple",
-          "26.3": "mtr:26_3_0/jungle_temple/jungle_temple"
+          "1.21-1.21.1": "mtr:1_21_0/jungle_temple/main",
+          "1.21.2-1.21.4": "mtr:1_21_2/jungle_temple/main",
+          "1.21.5-1.21.8": "mtr:1_21_5/jungle_temple/main",
+          "1.21.9-26.2": "mtr:1_21_9/jungle_temple/main",
+          "26.3": "mtr:26_3_0/jungle_temple/main"
         },
         "processors": "mtr:jungle_temple_replace_loot",
         "projection": "rigid",

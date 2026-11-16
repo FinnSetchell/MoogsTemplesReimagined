@@ -5,9 +5,9 @@
     {
       "weight": 1,
       "element": {
-        "location": "mtr:1_21_0/nether_temple/nether_temple_statue",
+        "location": "mtr:1_21_0/nether_temple/statue",
         "locations": {
-          "1.21-26.3": "mtr:1_21_0/nether_temple/nether_temple_statue"
+          "1.21-26.3": "mtr:1_21_0/nether_temple/statue"
         },
         "processors": "minecraft:empty",
         "projection": "rigid",

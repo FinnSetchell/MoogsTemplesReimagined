@@ -5,9 +5,9 @@
     {
       "weight": 1,
       "element": {
-        "location": "mtr:1_21_0/desert-mega-temple/desert-mega-temple-bl",
+        "location": "mtr:1_21_0/desert_temple/bottom_left",
         "locations": {
-          "1.21-26.3": "mtr:1_21_0/desert-mega-temple/desert-mega-temple-bl"
+          "1.21-26.3": "mtr:1_21_0/desert_temple/bottom_left"
         },
         "processors": "mtr:desert_temple_replace_loot",
         "projection": "rigid",
