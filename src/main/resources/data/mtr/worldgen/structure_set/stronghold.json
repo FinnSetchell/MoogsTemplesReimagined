@@ -8,7 +8,8 @@
     "placement": {
         "type": "moogs_structures:conditional_concentric_rings",
         "salt": 170159968,
-        "distance": 42,
+        "distance": 48,
+        "enabled_distance": 36,
         "spread": 3,
         "preferred_biomes": "#minecraft:stronghold_biased_to",
         "modid": "mtr",
