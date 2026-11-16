@@ -5,10 +5,10 @@
     {
       "weight": 1,
       "element": {
-        "location": "mtr:1_20_5/jungle_temple/jungle_temple_4",
+        "location": "mtr:1_20_5/jungle_temple/side_4",
         "locations": {
-          "1.20-1.20.4": "mtr:1_20_0/jungle_temple/jungle_temple_4",
-          "1.20.5-1.20.6": "mtr:1_20_5/jungle_temple/jungle_temple_4"
+          "1.20-1.20.4": "mtr:1_20_0/jungle_temple/side_4",
+          "1.20.5-1.20.6": "mtr:1_20_5/jungle_temple/side_4"
         },
         "processors": "mtr:jungle_temple_replace_loot",
         "projection": "rigid",

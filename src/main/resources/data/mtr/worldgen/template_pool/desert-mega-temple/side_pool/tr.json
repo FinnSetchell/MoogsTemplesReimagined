@@ -5,11 +5,11 @@
     {
       "weight": 1,
       "element": {
-        "location": "mtr:1_20_5/desert-mega-temple/desert-mega-temple-tr",
+        "location": "mtr:1_20_5/desert_temple/top_right",
         "locations": {
-          "1.20-1.20.2": "mtr:1_20_0/desert-mega-temple/desert-mega-temple-tr",
-          "1.20.3-1.20.4": "mtr:1_20_3/desert-mega-temple/desert-mega-temple-tr",
-          "1.20.5-1.20.6": "mtr:1_20_5/desert-mega-temple/desert-mega-temple-tr"
+          "1.20-1.20.2": "mtr:1_20_0/desert_temple/top_right",
+          "1.20.3-1.20.4": "mtr:1_20_3/desert_temple/top_right",
+          "1.20.5-1.20.6": "mtr:1_20_5/desert_temple/top_right"
         },
         "processors": "mtr:desert_temple_replace_loot",
         "projection": "rigid",

@@ -5,10 +5,10 @@
     {
       "weight": 1,
       "element": {
-        "location": "mtr:1_20_5/badlands_temple/badlands_temple_main",
+        "location": "mtr:1_20_5/badlands_temple/main",
         "locations": {
-          "1.20-1.20.4": "mtr:1_20_0/badlands_temple/badlands_temple_main",
-          "1.20.5-1.20.6": "mtr:1_20_5/badlands_temple/badlands_temple_main"
+          "1.20-1.20.4": "mtr:1_20_0/badlands_temple/main",
+          "1.20.5-1.20.6": "mtr:1_20_5/badlands_temple/main"
         },
         "processors": "minecraft:empty",
         "projection": "rigid",

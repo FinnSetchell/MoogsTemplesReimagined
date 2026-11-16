@@ -5,11 +5,11 @@
     {
       "weight": 1,
       "element": {
-        "location": "mtr:1_20_5/nether_temple/nether_temple_small",
+        "location": "mtr:1_20_5/nether_temple/small",
         "locations": {
-          "1.20-1.20.2": "mtr:1_20_0/nether_temple/nether_temple_small",
-          "1.20.3-1.20.4": "mtr:1_20_3/nether_temple/nether_temple_small",
-          "1.20.5-1.20.6": "mtr:1_20_5/nether_temple/nether_temple_small"
+          "1.20-1.20.2": "mtr:1_20_0/nether_temple/small",
+          "1.20.3-1.20.4": "mtr:1_20_3/nether_temple/small",
+          "1.20.5-1.20.6": "mtr:1_20_5/nether_temple/small"
         },
         "processors": "minecraft:empty",
         "projection": "rigid",
