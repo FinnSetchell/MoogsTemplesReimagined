@@ -25,78 +25,34 @@
     },
     {
       "processor_type": "moogs_structures:spawner_randomizing_processor",
+      "nbt_version": "1.21",
       "weighted_entities": [
         {
           "entity": "minecraft:husk",
           "weight": 1,
           "nbt": {
-            "CustomName": {
-              "text": "Desert Temple Guardian",
-              "italic": false
-            },
+            "CustomName": "{\"text\": \"Desert Temple Guardian\", \"italic\": false}",
             "PersistenceRequired": 1,
             "CanPickUpLoot": 0,
             "Health": 35.0,
             "attributes": [
               {
-                "id": "minecraft:armor",
+                "id": "minecraft:generic.armor",
                 "base": 2.0
               },
               {
-                "id": "minecraft:attack_damage",
+                "id": "minecraft:generic.attack_damage",
                 "base": 3.0
               },
               {
-                "id": "minecraft:max_health",
+                "id": "minecraft:generic.max_health",
                 "base": 35.0
               },
               {
-                "id": "minecraft:movement_speed",
+                "id": "minecraft:generic.movement_speed",
                 "base": 0.23
               }
             ],
-            "equipment": {
-              "mainhand": {
-                "id": "minecraft:golden_sword",
-                "count": 1,
-                "components": {
-                  "minecraft:enchantments": {
-                    "minecraft:sharpness": 4,
-                    "minecraft:fire_aspect": 1
-                  }
-                }
-              },
-              "head": {
-                "id": "minecraft:golden_helmet",
-                "count": 1,
-                "components": {
-                  "minecraft:enchantments": {
-                    "minecraft:power": 4,
-                    "minecraft:thorns": 1,
-                    "minecraft:protection": 3
-                  },
-                  "minecraft:trim": {
-                    "material": "minecraft:gold",
-                    "pattern": "minecraft:dune"
-                  }
-                }
-              },
-              "chest": {
-                "id": "minecraft:golden_chestplate",
-                "count": 1,
-                "components": {
-                  "minecraft:enchantments": {
-                    "minecraft:thorns": 1,
-                    "minecraft:protection": 3
-                  }
-                }
-              }
-            },
-            "drop_chances": {
-              "mainhand": 0.001,
-              "head": 0.001,
-              "chest": 0.001
-            },
             "ArmorItems": [
               {},
               {},
