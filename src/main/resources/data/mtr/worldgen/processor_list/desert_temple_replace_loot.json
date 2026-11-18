@@ -25,6 +25,7 @@
     },
     {
       "processor_type": "moogs_structures:spawner_randomizing_processor",
+      "nbt_version": "1.20",
       "weighted_entities": [
         {
           "entity": "minecraft:husk",
@@ -52,38 +53,11 @@
                 "Base": 0.23
               }
             ],
-            "attributes": [
-              {
-                "id": "minecraft:generic.armor",
-                "base": 2.0
-              },
-              {
-                "id": "minecraft:generic.attack_damage",
-                "base": 3.0
-              },
-              {
-                "id": "minecraft:generic.max_health",
-                "base": 35.0
-              },
-              {
-                "id": "minecraft:generic.movement_speed",
-                "base": 0.23
-              }
-            ],
             "ArmorItems": [
               {},
               {},
               {
                 "id": "minecraft:golden_chestplate",
-                "count": 1,
-                "components": {
-                  "minecraft:enchantments": {
-                    "levels": {
-                      "minecraft:thorns": 1,
-                      "minecraft:protection": 3
-                    }
-                  }
-                },
                 "Count": 1,
                 "tag": {
                   "Enchantments": [
@@ -100,20 +74,6 @@
               },
               {
                 "id": "minecraft:golden_helmet",
-                "count": 1,
-                "components": {
-                  "minecraft:enchantments": {
-                    "levels": {
-                      "minecraft:power": 4,
-                      "minecraft:thorns": 1,
-                      "minecraft:protection": 3
-                    }
-                  },
-                  "minecraft:trim": {
-                    "material": "minecraft:gold",
-                    "pattern": "minecraft:dune"
-                  }
-                },
                 "Count": 1,
                 "tag": {
                   "Enchantments": [
@@ -140,15 +100,6 @@
             "HandItems": [
               {
                 "id": "minecraft:golden_sword",
-                "count": 1,
-                "components": {
-                  "minecraft:enchantments": {
-                    "levels": {
-                      "minecraft:sharpness": 4,
-                      "minecraft:fire_aspect": 1
-                    }
-                  }
-                },
                 "Count": 1,
                 "tag": {
                   "Enchantments": [
