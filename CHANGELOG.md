@@ -20,6 +20,7 @@
 - Four chests in the jungle temple that were always empty now hold loot, and its crypt barrels are stocked
 - A stray ladder no longer lies on the jungle temple's floor
 - The two empty chests in the nether temple now have loot
+- Chests that couldn't be opened because of a block above them now open
 
 ### Changed
 - Now requires Moog's Structure Lib 4.0.0 or newer
